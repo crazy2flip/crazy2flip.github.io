@@ -8,7 +8,6 @@ body {
     line-height: 32px;
     font-family: Ubuntu, sans-serif;
     color: black;
-    
 }
 
 h1 {
@@ -25,9 +24,8 @@ h2 {
 }
 
 header, main, footer {
-    margin: 3.5rem auto;
-    padding: 0.5rem;
-    max-width: 1400px;
+    margin: auto;
+    max-width: 960px;
 }
 
 header, footer, footer a {
@@ -37,13 +35,19 @@ header, footer, footer a {
 }
 
 header img {
-    width: 23em;
-    height: auto;
+    width: auto;
+    height: 12rem;
     float: right;
+    padding: 1rem;
 }
 
 footer {
     font-size: 1rem;
     color: White;
+    padding: em;
      
+}
+
+main ul {
+    padding:1rem;
 }
