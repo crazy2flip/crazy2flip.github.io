@@ -11,21 +11,22 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 6rem;
     color: White;
     text-align: center;
-    padding: 1rem;
+    padding: 3rem;
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: 2rem;
     text-align: center;
     border-bottom: 1px solid black;
+    padding: 1rem;
 }
 
 header, main, footer {
     margin: auto;
-    max-width: 960px;
+    max-width: 1230px;
 }
 
 header, footer, footer a {
@@ -36,18 +37,20 @@ header, footer, footer a {
 
 header img {
     width: auto;
-    height: 12rem;
+    height: 23rem;
     float: right;
-    padding: 1rem;
+    padding: 3rem 1rem 1rem 1rem;
 }
 
 footer {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: White;
-    padding: em;
+    padding: 1em;
      
 }
 
 main ul {
-    padding:1rem;
+    font-size: 1.5em;
+    padding:2rem 0rem 2rem 3rem;
+    
 }
