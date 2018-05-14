@@ -54,3 +54,11 @@ main ul {
     padding:2rem 0rem 2rem 3rem;
     
 }
+
+main video {
+    margin: 0 auto;    
+    width: inherit;
+    height: inherit;
+    padding: 1em;
+    
+}
