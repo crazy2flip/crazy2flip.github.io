@@ -62,7 +62,7 @@ main ul {
 }
 
 main video {
-    margin: 0 auto;
+    margin:  auto;
     display: block;
     width: inherit;
     height: inherit;
