@@ -2,31 +2,36 @@
 
 body {
   font-size: 16px;
-  font-family: sans-serif; /* Declare the base font-family */
+  font-family: arial sans-serif; /* Declare the base font-family */
+    
 }
 
 header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
     max-width: 1230px;
     margin: 0 auto;
+    padding: 0;
 }
 
 header {
+    position: relative;
     background-color: #AD4900;
+    height: 7em;
+    top: 0;    
+    padding: 0.1em;
 } 
 header h1 {
     font-family: ravie;
     font-style: italic;
     font-size: 0.75em;
     color: #E6E6E6;
-    padding: 1em 0 0;
+    padding: 1.3em 0 0;
     margin-left: 25%;
-    width: 75%;
+    margin-right: 85%;
+    width: 65%;
     text-align: center;
 }
 header img {
     position: absolute;
-    padding: 0 0 0 3%;
-    top: 0;
     height:100%;
     width: 25%;
     
@@ -38,46 +43,182 @@ header .subheading {
     font-weight: bold;
     font-size: 0.75em;
     color: #E6E6E6;
-    width:75%;
+    width:65%;
     margin-left: 25%;
     text-align: center;
     padding: 0 0 1em;  
 }
 
 nav {
-    
-}
-nav button {
-    position: absolute;
-    width:10px;
-    height: 15px;
-    top: 0;
-    right: 0;
 }
 
-nav button div {
+nav button {
     position: absolute;
-    width: 7px;
-    height: 1px;
-    background-color: black;
-    margin: 0.1em
+    width: 1rem;
+    height: 1rem;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    border: none;
+    margin: 0.25em 0.25em 0 0;
+    padding: 0;
 }
+
+nav button img{
+    width: 1rem;
+    height: 1rem; 
+}
+
+nav button:hover, nav button:focus {
+    	filter: invert(90%);
+}
+
+nav button:hover nav ul{
+    	display: block;
+}
+
 
 nav ul {
     list-style-type: none;
-    margin: 0 auto;
+    margin: 0 0.01em;
+    padding: 0;
+    text-align: center;
+    
+}
+nav ul li{
+    background-color: #404040;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #E2E200;
+}
+nav ul li.active a {}
+nav ul li a:hover {
+    color: #FFFFFF;
+}
+
+main {
+    position: relative;
+    clear: both;
+    background-color: #B4B4B4;
+    padding: 0.1em;
+
+}
+main h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 3em;
+    font-weight: bold;
+    width: 80%;
+    background-color: #E2E200; 
+    border-radius: 10px;    
+    margin: 0.4em auto;
+}
+main figure { 
+    margin: 0 0 .2rem 2%; 
+    width:96%; }
+main figure img {
+    
+    top: 0;
+    width: 100%;
+    display: block;
+    margin-top; 3%;
+    margin-left: auto;
+    margin-right: auto; 
     padding: 0;
 }
-nav ul li {
-    text-decoration: none;
+
+.weather-summary, .news-story, .forecast{
+    border-style: solid;
+    border-color: #000000;
+    margin: 0.3em;
+    overflow: auto;
 }
-nav ul li a {}
-nav ul li.active a {}
-nav ul li a:hover {}
 
-main {}
-main h2 {}
-main figure { margin: 0 0 .2rem 2%; width:96%; }
-main figure img { }
+.weather-summary h3, .news-story h3, .forecast h3{
+    background-color: #404040;
+    margin: 0 ;
+    width:100%;
+    color: #E2E200;
+    border-bottom-style: solid;
+    border-bottom-color: #000000;
+    padding: 0.2em;
+}
 
-footer {}
+.weather-summary img{
+    height: 2em;
+    float: right;
+    border-radius: 50%;
+    margin: 0.75em 0;
+
+        
+}
+
+.current {
+    width: 7em;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+
+#cur-state {
+    display: inline-block;    
+}
+
+
+
+.highlow {
+
+    width: 12em;
+    margin: 0 auto;
+    overflow: auto;
+    
+}
+
+.cur-temp{
+    display: inline-block;  
+    float: left;
+    width: 4.5em;
+    margin: 0 0.5em;
+}
+
+.conditions{
+    width: 10em;
+    margin: 0 auto;
+    overflow: auto;
+ 
+}
+
+section.forecast {
+    display: none;
+}
+
+.town-article {
+        font-size: 0.5em;
+        width: 96%;
+        margin: 1em auto;
+        
+    }
+
+.news-story img {
+    width: 100%;
+     padding: 0 1em 0.5em 1em;
+}
+
+
+footer .contact {
+    background: #AD4900;
+    margin: 0;
+    padding: 0.1em;
+    text-align: center;    
+}
+
+.contact-info, .contact h4 {
+    padding: 0;
+    margin: 0;
+}
+.footer-bar {
+    background-color: #5F2D0A;
+    font-size: 0.4em;
+    text-align: center;
+}
