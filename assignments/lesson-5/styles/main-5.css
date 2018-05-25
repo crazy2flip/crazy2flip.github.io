@@ -1,0 +1,83 @@
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 16px;
+  font-family: sans-serif; /* Declare the base font-family */
+}
+
+header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #AD4900;
+} 
+header h1 {
+    font-family: ravie;
+    font-style: italic;
+    font-size: 0.75em;
+    color: #E6E6E6;
+    padding: 1em 0 0;
+    margin-left: 25%;
+    width: 75%;
+    text-align: center;
+}
+header img {
+    position: absolute;
+    padding: 0 0 0 3%;
+    top: 0;
+    height:100%;
+    width: 25%;
+    
+}
+header .subheading {
+    
+    font-family: arial;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 0.75em;
+    color: #E6E6E6;
+    width:75%;
+    margin-left: 25%;
+    text-align: center;
+    padding: 0 0 1em;  
+}
+
+nav {
+    
+}
+nav button {
+    position: absolute;
+    width:10px;
+    height: 15px;
+    top: 0;
+    right: 0;
+}
+
+nav button div {
+    position: absolute;
+    width: 7px;
+    height: 1px;
+    background-color: black;
+    margin: 0.1em
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+nav ul li {
+    text-decoration: none;
+}
+nav ul li a {}
+nav ul li.active a {}
+nav ul li a:hover {}
+
+main {}
+main h2 {}
+main figure { margin: 0 0 .2rem 2%; width:96%; }
+main figure img { }
+
+footer {}
