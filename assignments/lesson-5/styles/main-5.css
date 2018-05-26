@@ -217,7 +217,7 @@ section.forecast {
 .forecast-table th, .forecast-table td{
     width: 10%;
     border-right: solid;
-    border-right-width: thin
+    border-right-width: thin;
 }
 
 .forecast-table th {
