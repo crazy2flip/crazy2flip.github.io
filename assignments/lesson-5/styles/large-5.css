@@ -1,4 +1,91 @@
 @media only screen and (min-width: 64em ) {
    
+    header h1 {
+        font-size: 2em;
+        padding: 0.1em 1em 0;
+    }
+    
+    header .subheading {
+        font-size: 1.5em;
+    }
+    
+    main figure {
+        float: none;
+        width: 96%;   
+       
+    }
+    
+     main figure img {
+        
+        width: 100%;
+         height: 20rem;
+    
+    }
   
+    nav ul li {   
+        font-size: 1.75em;
+    }
+    
+    .forecast-table {
+        font-size: 2em;
+    
+    }
+      .current {
+        
+        width: 33.3%;
+        margin: 0;
+        padding:4.5% 0 4.5% 1%;
+        
+    }
+    .current img {
+        width: 60%;
+    }
+    
+    .weather-summary div {
+        float: left;
+    }
+    
+    #cur-state {
+        width: 40%;
+        font-size: 2em;
+        padding: 1em 0;
+    }
+    
+    .highlow { 
+        margin: 0;
+        width: 33.3%;  
+        font-size: 2Rem;
+        padding: 7% 0% 7% 10%;
+    }
+    
+    .cur-temp {
+        width: 70%;
+        padding:  3% 0;
+        
+    }
+        
+    .conditions {
+        
+        width: 33.3%;
+        margin: 0;        
+        font-size: 2rem;
+        padding: 8% 2%;
+    
+    }
+    
+    .cur-con {
+        width: 95%;
+        padding:  1% 0;
+    }
+    
+
+    .town-article {
+        font-size: 2em;        
+    }
+    
+    .contact, .footer-bar{
+         font-size: 2em;
+    }
+    
+    
   }

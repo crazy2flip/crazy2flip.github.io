@@ -6,6 +6,20 @@
     
     section.forecast { display: block; }  /* show the 10-day forecast with the medium view and up */
     
+    
+    header h1 {
+    font-size: 1.25em;
+    padding: 0.5em 1em 0;
+    width: 75%;
+    }
+    
+    header .subheading {
+    font-size: 1em;
+    width:65%;
+    padding: 0 1em;
+
+    }
+    
     nav {
     }
         
@@ -16,18 +30,79 @@
     nav ul li {
         float: left;
         width: 16.66666667%;      
-        z-index: 1;
-        font-size: 1.25em;
+        font-size: 1.25rem;
     }
     
-    nav ul li a:hover, nav ul li a:focus {
+    
+    main figure {
+    float: left;
+    width: 55%;
+    margin-right: 0.5em
+   
+    }
+    
+    main figure img {
+        width: 100%
+   
+    }
+    
     
 
+    .current {
+        width: 100%;
+        
     }
-
+    .current img {
+        float: left;
+        width: 40%;
+        height: auto;
+    }
+    #cur-state {
+        width: 60%;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    .cur-temp {
+        display: block;
+        float: none;    
+    }
+    
+    .highlow { 
+        width: 60%;
+        font-size: 1rem;
+        margin-left:35%;
+            
+    }
+    
+    .conditions {
+        width: 60%;
+        font-size: 1rem;
+        margin-left:35%;
+        
+       
+    }
+    
+    
+    .news-story img {
+        float: right;
+        width: 50%;
+    }
+    
     .town-article {
-        font-size: 5px;
+        width: 96%;
+        margin: 1em auto;
+        
+        
     }
+    
+    .town-article, .contact, .footer-bar {
+         font-size: 1.25rem;
+    }
+    
+   
+    
+   
   
     
   }

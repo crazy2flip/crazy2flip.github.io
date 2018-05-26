@@ -80,13 +80,14 @@ nav button:hover nav ul{
 
 nav ul {
     list-style-type: none;
-    margin: 0 0.01em;
+    margin: 0;
     padding: 0;
     text-align: center;
     
 }
 nav ul li{
     background-color: #404040;
+    padding: 0.1em
 }
 nav ul li a {
     text-decoration: none;
@@ -106,32 +107,37 @@ main {
 }
 main h2 {
     text-align: center;
-    color: #000000;
-    font-size: 3em;
+    display: block;
+    color: #404040;
+    font-size: 2em;
     font-weight: bold;
-    width: 80%;
+    width: 96%; 
+    margin: 0 auto;
+}
+
+.town-header {
+    margin: 0.5rem 2%;
+    overflow: auto;
     background-color: #E2E200; 
-    border-radius: 10px;    
-    margin: 0.4em auto;
+    border-radius: 70%; 
 }
 main figure { 
     margin: 0 0 .2rem 2%; 
     width:96%; }
 main figure img {
-    
     top: 0;
     width: 100%;
-    display: block;
-    margin-top; 3%;
+    margin-top: 0.5rem;
     margin-left: auto;
     margin-right: auto; 
     padding: 0;
 }
 
 .weather-summary, .news-story, .forecast{
+    position: relative;
     border-style: solid;
     border-color: #000000;
-    margin: 0.3em;
+    margin: 1em 2%;
     overflow: auto;
 }
 
@@ -182,28 +188,55 @@ main figure img {
     margin: 0 0.5em;
 }
 
+.conditions p{
+   margin: 0 0.5em;
+}
+
+
 .conditions{
-    width: 10em;
-    margin: 0 auto;
+    width: 11em;
+    margin: 1em auto;
     overflow: auto;
  
 }
 
 section.forecast {
     display: none;
+    clear: both;
+    
+}
+
+.forecast-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-right: 0 auto;
+    text-align: center;
+    
+}
+
+.forecast-table th, .forecast-table td{
+    width: 10%;
+    border-right: solid;
+    border-right-width: thin
+}
+
+.forecast-table th {
+    background: #AD4900;
+}
+
+
+.news-story img {
+    width: 100%;
+     padding: 1em 1em 0;
 }
 
 .town-article {
-        font-size: 0.5em;
+        font-size: 1em;
         width: 96%;
         margin: 1em auto;
         
     }
 
-.news-story img {
-    width: 100%;
-     padding: 0 1em 0.5em 1em;
-}
 
 
 footer .contact {
@@ -219,6 +252,9 @@ footer .contact {
 }
 .footer-bar {
     background-color: #5F2D0A;
-    font-size: 0.4em;
+    color: #E6E6E6;
+    font-size: 0.75em;
     text-align: center;
 }
+
+
