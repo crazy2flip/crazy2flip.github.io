@@ -1,22 +1,20 @@
 @media only screen and (min-width: 37.5em) {
 
-    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    nav button { display:none; }  
     
-    nav button { display:none; }  /* hamburger button does not need to be shown in the medium on up views */
+    section.forecast { display: block; }  
     
-    section.forecast { display: block; }  /* show the 10-day forecast with the medium view and up */
-    
-    
+
     header h1 {
-    font-size: 1.25em;
-    padding: 0.5em 1em 0;
-    width: 75%;
+        font-size: 1.25em;
+        padding: 0.5em 1em 0;
+        width: 75%;
     }
     
     header .subheading {
-    font-size: 1em;
-    width:65%;
-    padding: 0 1em;
+        font-size: 1em;
+        width:65%;
+        padding: 0 1em;
 
     }
     
@@ -34,28 +32,27 @@
             
     }
     
-    
     main figure {
-    float: left;
-    width: 55%;
-    margin-right: 0.5em
+        float: left;
+        width: 55%;
+        margin-right: 0.5em
    
     }
     
     main figure img {
         width: 100%
-   
     }
     
     .current {
         width: 100%;
-        
     }
+    
     .current img {
         float: left;
         width: 40%;
         height: auto;
     }
+    
     #cur-state {
         width: 60%;
         font-size: 1.5em;
@@ -77,11 +74,8 @@
     .conditions {
         width: 60%;
         font-size: 1rem;
-        margin-left;
-        
-       
+        margin-left:35%;
     }
-    
     
     .news-story img {
         float: right;
@@ -92,16 +86,10 @@
         width: 96%;
         margin: 1em auto;
         
-        
     }
     
     .town-article, .contact, .footer-bar {
          font-size: 1.25rem;
     }
-    
-   
-    
-   
-  
     
   }
