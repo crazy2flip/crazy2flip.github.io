@@ -74,17 +74,17 @@
     }
     
     .cur-con {
-        width: 95%;
-        padding:  1% 0;
+        width: 100%;
+        padding: 0;
     }
     
 
-    .town-article {
-        font-size: 2em;        
+    .town-article, .contact, .footer-bar {
+         font-size: 2rem;
     }
     
-    .contact, .footer-bar{
-         font-size: 2em;
+    .weather-summary h3, .news-story h3, .forecast h3{
+        font-size: 1.75rem;
     }
     
     
