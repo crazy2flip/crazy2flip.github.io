@@ -2,7 +2,7 @@
 
 body {
   font-size: 16px;
-  font-family: arial sans-serif; /* Declare the base font-family */
+  font-family: "arial", sans-serif; /* Declare the base font-family */
     
 }
 
@@ -203,15 +203,12 @@ main figure img {
 section.forecast {
     display: none;
     clear: both;
-    
 }
 
 .forecast-table {
     border-collapse: collapse;
     width: 100%;
-    margin-right: 0 auto;
     text-align: center;
-    
 }
 
 .forecast-table th, .forecast-table td{
