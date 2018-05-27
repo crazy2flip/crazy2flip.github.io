@@ -1,8 +1,10 @@
-    * { box-sizing: border-box;}
+    * {
+        box-sizing: border-box;
+    }
 
     body {
-      font-size: 16px;
-      font-family: "arial", sans-serif; 
+        font-size: 16px;
+        font-family: "arial", sans-serif; 
 
     }
 
@@ -15,10 +17,11 @@
     header {
         position: relative;
         background-color: #AD4900;
-        height: 7em;
         top: 0;    
         padding: 0.1em;
+        overflow: auto;
     } 
+
     header h1 {
         font-family: ravie;
         font-style: italic;
@@ -30,12 +33,16 @@
         width: 65%;
         text-align: center;
     }
-    header img {
-        position: absolute;
-        height:100%;
-        width: 25%;
 
+    header img {
+        float: left;
+        height: auto;
+        width: 25%;
+        padding: 0 0 0 %;
+        margin: 1.25rem 0
+      
     }
+
     header .subheading {
 
         font-family: arial;
@@ -77,7 +84,6 @@
             display: block;
     }
 
-
     nav ul {
         list-style-type: none;
         margin: 0;
@@ -85,14 +91,18 @@
         text-align: center;
 
     }
+
     nav ul li{
         background-color: #404040;
-        padding: 0.1em
+        padding: 0.5em 0;
+        border: solid 0.01rem #202020;
     }
+
     nav ul li a {
         text-decoration: none;
         color: #E2E200;
     }
+
     nav ul li.active a {}
     nav ul li a:hover {
         color: #FFFFFF;
@@ -105,6 +115,7 @@
         padding: 0.1em;
 
     }
+
     main h2 {
         text-align: center;
         display: block;
@@ -121,9 +132,12 @@
         background-color: #E2E200; 
         border-radius: 70%; 
     }
+
     main figure { 
         margin: 0 0 .2rem 2%; 
-        width:96%; }
+        width:96%; 
+    }
+
     main figure img {
         top: 0;
         width: 100%;
@@ -137,19 +151,21 @@
         position: relative;
         border-style: solid;
         border-color: #000000;
+        border-width: 0.2rem;
         margin: 1em 2%;
         overflow: auto;
     }
 
     .weather-summary h3, .news-story h3, .forecast h3{
-        font-size: 1.3rem;
+        font-size: 1.rem;
         background-color: #404040;
-        margin: 0 ;
-        width:100%;
+        margin: 0;
+        width: 100%;
         color: #E2E200;
         border-bottom-style: solid;
         border-bottom-color: #000000;
-        padding: 0.2em;
+        border-bottom-width: 0.2rem;
+        padding: 0.3em;
     }
 
     .weather-summary img{
@@ -157,8 +173,6 @@
         float: right;
         border-radius: 50%;
         margin: 0.75em 0;
-
-
     }
 
     .current {
@@ -167,19 +181,15 @@
         overflow: auto;
     }
 
-
     #cur-state {
         display: inline-block;    
     }
-
-
 
     .highlow {
 
         width: 13em;
         margin: 0 auto;
         overflow: auto;
-
     }
 
     .cur-temp{
@@ -198,7 +208,6 @@
         width: 12em;
         margin: 1em auto;
         overflow: auto;
-
     }
 
     section.forecast {
@@ -208,34 +217,34 @@
 
     .forecast-table {
         border-collapse: collapse;
+        border-style: hidden;
         width: 100%;
-        text-align: center;
+        text-align: center;   
+        margin: 0 auto;
     }
+
 
     .forecast-table th, .forecast-table td{
         width: 10%;
         border-right: solid;
-        border-right-width: thin;
+        border-right-width: 0.2rem;
     }
 
     .forecast-table th {
         background: #AD4900;
     }
 
-
     .news-story img {
         width: 100%;
-         padding: 1em 1em 0;
+        height: auto;
+        padding: 0.5em 3em 0;
     }
 
     .town-article {
             font-size: 1em;
             width: 96%;
             margin: 1em auto;
-
-        }
-
-
+    }
 
     footer .contact {
         background: #AD4900;
@@ -248,10 +257,11 @@
         padding: 0;
         margin: 0;
     }
+
     .footer-bar {
         background-color: #5F2D0A;
         color: #E6E6E6;
-        font-size: 0.75em;
+        font-size: 0.5em;
         text-align: center;
         padding: 0;
         margin: 0;
