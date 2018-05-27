@@ -71,7 +71,7 @@
         padding: 0;
     }
 
-    nav button img{
+    nav button img {
         width: 1rem;
         height: 1rem; 
     }
@@ -147,7 +147,7 @@
         padding: 0;
     }
 
-    .weather-summary, .news-story, .forecast{
+    .weather-summary, .news-story, .forecast {
         position: relative;
         border-style: solid;
         border-color: #000000;
@@ -156,8 +156,8 @@
         overflow: auto;
     }
 
-    .weather-summary h3, .news-story h3, .forecast h3{
-        font-size: 1.rem;
+    .weather-summary h3, .news-story h3, .forecast h3 {
+        font-size: 1rem;
         background-color: #404040;
         margin: 0;
         width: 100%;
@@ -168,7 +168,7 @@
         padding: 0.3em;
     }
 
-    .weather-summary img{
+    .weather-summary img {
         height: 2em;
         float: right;
         border-radius: 50%;
