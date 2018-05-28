@@ -93,6 +93,16 @@
     
     .weather-summary h3, .news-story h3, .forecast h3{
         font-size: 1.75rem;
+        border-width: 0.1rem;
+        border-top: none;
+    }
+    
+    .forecast-table th, .forecast-table td{
+        border-width: 0.1rem;
+    }
+    
+     .weather-summary, .news-story, .forecast {
+        border-width: 0.1rem;
     }
     
     

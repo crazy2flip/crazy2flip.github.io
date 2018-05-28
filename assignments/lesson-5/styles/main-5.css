@@ -151,7 +151,7 @@
         position: relative;
         border-style: solid;
         border-color: #000000;
-        border-width: 0.2rem;
+        border-width: 0.05rem;
         margin: 1em 2%;
         overflow: auto;
     }
@@ -164,7 +164,7 @@
         color: #E2E200;
         border-bottom-style: solid;
         border-bottom-color: #000000;
-        border-bottom-width: 0.2rem;
+        border-bottom-width: 0.05rem;
         padding: 0.3em;
     }
 
@@ -227,7 +227,7 @@
     .forecast-table th, .forecast-table td{
         width: 10%;
         border-right: solid;
-        border-right-width: 0.2rem;
+        border-right-width: 0.05rem;
     }
 
     .forecast-table th {
