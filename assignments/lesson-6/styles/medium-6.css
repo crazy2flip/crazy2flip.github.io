@@ -1,0 +1,107 @@
+@media only screen and (min-width: 37.5em) {
+
+    nav button { 
+        display:none; 
+    }  
+    
+    section.forecast { 
+        display: block; 
+    }  
+    
+    header h1 {
+        font-size: 2rem;
+        width: 75%;
+    }
+    
+    header .subheading {
+        font-size: 1em;
+        width: 75%;
+    }
+    
+    header img {
+        padding: 0 0 0 6%;
+        margin: 0;
+      
+    }
+    
+    nav ul li {
+        float: left;
+        width: 16.66666667%;      
+    }
+    
+     nav ul li a{   
+        font-size: 1.1rem;
+        border-top: none;
+         
+    }
+    
+    nav ul.hide {
+        display: block; 
+    }
+    
+    main figure {
+        float: left;
+        margin: 0 2%;
+        width: 50%;
+    }
+    
+    main figure img {
+    }
+    
+    .town-header {
+        margin: 0 2%;
+    }
+    
+    .current {
+        width: 100%;
+    }
+    
+    .current img {
+        float: left;
+        width: 38%;
+        height: auto;
+        margin-left: 2%;
+    }
+    
+    #cur-state {
+        width: 60%;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    
+    .cur-temp {
+        display: block;
+        float: none;    
+    }
+    
+    .highlow { 
+        width: 60%;
+        font-size: 1rem;
+        margin-left:35%;
+            
+    }
+    
+    .conditions {
+        width: 60%;
+        font-size: 1rem;
+        margin-left:35%;
+    }
+    
+    .news-story img {
+        float: right;
+        width: 50%;
+        padding: 0;
+        margin: 1em;
+    }
+    
+    .town-article {
+        width: 96%;
+        margin: 1em auto;
+        font-size: 1rem;
+    }
+    
+    .contact, .footer-bar {
+         font-size: 0.75rem;
+    }
+
+  }

@@ -1,0 +1,269 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-size: 16px;
+        font-family: "arial", sans-serif; 
+
+    }
+
+    header, nav, main, footer {
+        max-width: 1230px;
+        margin: 0 auto;
+        padding: 0;
+        height: 10%;
+    }
+
+    header {
+        background-color: #AD4900;   
+        padding: 1rem 0 1rem 0;
+        overflow: auto;
+    } 
+
+
+    header img {
+        float: left;
+        height: auto;
+        width: 25%;
+        padding: 0;
+        margin: 0 0 0 2%;
+      
+    }
+
+    header h1 {
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 1.2rem;
+        font-style: italic;
+        color: #E6E6E6;
+        padding: 0 0 0 0;
+        margin: 3% 0 1% 25%;
+        width: 65%;
+        text-align: center;
+    }
+
+
+    header .subheading {
+
+        font-family: arial;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 0.8rem;
+        color: #E6E6E6;
+        width:65%;
+        margin: 0 0 1% 25%;
+        text-align: center;
+    
+    }
+
+    nav {
+    }
+
+    nav button {
+        float: right;
+        background-color: transparent;
+        border: none;
+        width: 1.8rem;
+        font-size: 1.6rem;
+        color: #ffffff;
+        text-align: center;
+        margin: -2rem 1% 0 0;
+        padding: 0;
+    
+    }
+
+    nav button:hover, nav button:focus {
+            color: rgba(0,0,0,0.5);
+            border: none;
+    }
+
+    nav button:hover nav ul{
+            
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;   
+    }
+
+    nav ul.hide {
+        display: none; 
+    }
+
+
+    nav ul li a {
+        display: block;
+        padding: .8rem 0;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1rem;
+        color: #E2E200;
+        background-color: #404040;  
+        border-top: 1px solid rgba(0,0,0,0.3);
+    }
+
+    nav ul li.active a {
+        color: #FFFFFF;
+        background-color: rgba(0,0,0,0.8);  
+    }
+
+    nav ul li a:hover {
+        background-color: rgba(0,0,0,0.5);  
+    }
+
+    main {
+        position: relative;
+        clear: both;
+        padding: 0.5rem 0 0;
+        background-color: #B4B4B4;
+    }
+
+    main h2 {
+        text-align: center;
+        display: block;
+        color: #404040;
+        font-size: 2em;
+        font-weight: bold;
+        width: 96%; 
+        margin: 0 auto;
+    }
+
+    .town-header {
+        margin: 0.5rem 2%;
+        overflow: auto;        
+        background-color: #E2E200; 
+        border-radius: 70%;
+        
+    }
+
+    main figure { 
+        margin: 0 auto; 
+        width: 94% ; 
+    }
+
+    main figure img {
+        width: 100%;
+    }
+
+    .weather-summary, .news-story, .forecast {
+        position: relative;
+        border-style: solid;
+        border-color: #000000;
+        border-width: 0.05rem;
+        margin: 1em 2%;
+        overflow: auto;
+    }
+
+    .weather-summary h3, .news-story h3, .forecast h3 {
+        font-size: 1rem;
+        background-color: #404040;
+        margin: 0;
+        width: 100%;
+        color: #E2E200;
+        border-bottom-style: solid;
+        border-bottom-color: #000000;
+        border-bottom-width: 0.05rem;
+        padding: 0.3em;
+    }
+
+    .weather-summary img {
+        height: 2em;
+        float: right;
+        border-radius: 50%;
+        margin: 0.75em 0;
+    }
+
+    .current {
+        width: 7em;
+        margin: 0 auto;
+        overflow: auto;
+    }
+
+    #cur-state {
+        display: inline-block;    
+    }
+
+    .highlow {
+
+        width: 13em;
+        margin: 0 auto;
+        overflow: auto;
+    }
+
+    .cur-temp{
+        float: left;
+        width: 6em;
+        margin: 0 0 0 0.5em;
+        padding: 0 0.5em;
+    }
+
+    .conditions p{
+       margin: 0 0.5em;
+    }
+
+
+    .conditions{
+        width: 12em;
+        margin: 1em auto;
+        overflow: auto;
+    }
+
+    section.forecast {
+        display: none;
+        clear: both;
+    }
+
+    .forecast-table {
+        border-collapse: collapse;
+        border-style: hidden;
+        width: 100%;
+        text-align: center;   
+        margin: 0 auto;
+    }
+
+
+    .forecast-table th, .forecast-table td{
+        width: 10%;
+        border-right: solid;
+        border-right-width: 0.05rem;
+    }
+
+    .forecast-table th {
+        background: #AD4900;
+    }
+
+    .news-story img {
+        width: 100%;
+        height: auto;
+        padding: 0.5em 3em 0;
+    }
+x
+    .town-article {
+            font-size: 1em;
+            width: 96%;
+            margin: 1em auto;
+    }
+
+    footer .contact {
+        background: #AD4900;
+        margin: 0;
+        padding: 0.1em;
+        text-align: center;    
+    }
+
+    .contact-info, .contact h4 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-bar {
+        background-color: #5F2D0A;
+        color: #E6E6E6;
+        font-size: 0.5em;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+
