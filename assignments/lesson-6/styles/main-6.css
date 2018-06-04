@@ -227,6 +227,7 @@
         width: 10%;
         border-right: solid;
         border-right-width: 0.05rem;
+        height: 1.75rem;
     }
 
     .forecast-table th {
@@ -248,11 +249,17 @@ x
     footer .contact {
         background: #AD4900;
         margin: 0;
-        padding: 0.1em;
+        padding: 0.5rem 0;
         text-align: center;    
     }
 
-    .contact-info, .contact h4 {
+
+    .contact h4 {
+        padding: 0 0 0.25rem 0;
+        margin: 0;
+    }
+
+    .contact-info{
         padding: 0;
         margin: 0;
     }
@@ -262,7 +269,7 @@ x
         color: #E6E6E6;
         font-size: 0.5em;
         text-align: center;
-        padding: 0;
+        padding: 0.5rem 0;
         margin: 0;
     }
 

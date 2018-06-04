@@ -11,7 +11,6 @@ function getCurrentDateString() {
     
     var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-
     document.getElementById("currentdate").innerHTML = weekday[d.getDay()]+", "+d.getDate()+" "+months[d.getMonth()]+" "+d.getFullYear();
 }
 
