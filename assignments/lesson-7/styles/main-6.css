@@ -126,10 +126,7 @@
     }
 
     main figure img {
-        display: block;
         width: 100%;
-        margin: 0;
-        padding: 0;
     }
 
     .weather-summary, .news-story, .forecast {
@@ -153,13 +150,6 @@
         padding: 0.3em;
        
     }
-    
-    .weather-summary-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
 
     .current {
         display: flex;
@@ -180,22 +170,25 @@
         
 
     .highlow {
-
+        width: 22%;
+        margin: 0 auto;
     }
 
     .cur-temp{
-        margin: 0.3rem 0;
+        margin: 0;
     }
 
     .conditions{
-        margin: 0 0 1rem 0;
+        width: 50%;
+        margin: 0.5rem auto 0.5rem 28%;    
     }
     
     .conditions p{
-       margin: 0.3rem 0;
+       margin: 0;
     }
 
     section.forecast {
+        display: none;
         display: none;
     }
 
@@ -203,6 +196,8 @@
         border-collapse: collapse;
         border-style: hidden;
         width: 100%;
+        text-align: center;   
+        margin: 0 auto;
     }
 
 
@@ -210,8 +205,7 @@
         width: 10%;
         border-right: solid;
         border-right-width: thin;
-        text-align: center;   
-        padding: 0.5rem 0;
+        height: 1.75rem;
     }
 
     .forecast-table th {
@@ -233,12 +227,13 @@
     footer .contact {
         background: #AD4900;
         margin: 0;
-        padding: 0.75rem 0;
+        padding: 0.5rem 0;
         text-align: center;    
     }
 
+
     .contact h4 {
-        padding: 0 0 0.5rem 0;
+        padding: 0 0 0.25rem 0;
         margin: 0;
     }
 
@@ -252,7 +247,7 @@
         color: #E6E6E6;
         font-size: 0.5em;
         text-align: center;
-        padding: 0.75rem 0;
+        padding: 0.5rem 0;
         margin: 0;
     }
 
