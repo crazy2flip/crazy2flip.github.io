@@ -133,22 +133,8 @@
     
     .image-grid {
         grid-template-columns: 1fr 1fr;
-        grid-gap: 0.5rem;
-    }
-    
-    .image-grid figure {
-       
-    }   
-
-    .image-grid figcaption {
-        text-align: center;
-        padding: 0.5rem;
-        
-    }
-
-    .image-grid img {
-        width: 96%;
-        margin: 2% auto 0;
+        grid-gap: 1rem;
+        margin: 1rem auto;
     }
     
 
