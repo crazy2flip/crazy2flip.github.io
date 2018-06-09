@@ -32,13 +32,8 @@
 
     }
     
-    #medium-grouping1-sub {
-       
-    }
-    
     main h2 {
         width: 40%;
-
     }
     
     .town-header {
@@ -51,7 +46,6 @@
     
     .forecast-table {
         font-size: 1.25em;
-    
     }
     
        
@@ -69,10 +63,9 @@
         align-items: center;
         width: 33.3%;
         margin: 0;
-        padding: 0 %;
-        
-        
+        padding: 0%;    
     }
+    
     .current img {
         margin: 0 0 0 2rem;
     }
@@ -80,8 +73,7 @@
     
     #cur-state {
         font-size: 1.5em;
-        margin: 0 2rme 0 0;   
-        
+        margin: 0 2rem 0 0;           
     }
     
     .highlow { 
@@ -92,7 +84,6 @@
         margin: 0;
         width: 33.3%;  
         font-size: 1.5rem;
-        
     }
     
     .cur-temp {
@@ -134,8 +125,5 @@
     
     .image-grid figure:hover {
        box-shadow: 0.5rem 0.5rem 2rem rgba(0,0,0,0.7);
-    }   
-    
-    
-    
-  }
+    }       
+}
