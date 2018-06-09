@@ -130,5 +130,26 @@
     .contact, .footer-bar {
          font-size: 0.75em;
     }
+    
+    .image-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0.5rem;
+    }
+    
+    .image-grid figure {
+       
+    }   
+
+    .image-grid figcaption {
+        text-align: center;
+        padding: 0.5rem;
+        
+    }
+
+    .image-grid img {
+        width: 96%;
+        margin: 2% auto 0;
+    }
+    
 
   }

@@ -127,4 +127,16 @@
         font-size: 1.75rem;
     }
     
+     .image-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+        margin: 1rem auto;
+    }
+    
+    .image-grid figure:hover {
+       box-shadow: 0.5rem 0.5rem 2rem rgba(0,0,0,0.7);
+    }   
+    
+    
+    
   }
