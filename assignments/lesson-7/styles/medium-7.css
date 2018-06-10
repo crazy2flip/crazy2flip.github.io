@@ -58,17 +58,18 @@
         flex: 1 1 50%;
     }
    
-    main figure {
+    main figure, main picture {
         width: 50%;
         margin-bottom: 1rem;
     
     }
     
-    main figure img {
+    main figure img, main picture img {
         height: 275px;
         object-fit: cover;
     }
     
+  
     main h2 {
 
     }
@@ -128,7 +129,7 @@
     }
     
     .contact, .footer-bar {
-         font-size: 0.75em;
+         font-size: 1rem;
     }
     
     .image-grid {

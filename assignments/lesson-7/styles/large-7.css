@@ -13,18 +13,20 @@
         padding: 0;
         background-color: #B4B4B4;
     }
-    main figure {
+    
+    main picture {
         width: 100%;  
         height: auto;
         padding: 0;
         margin: 0;
     }
     
-     main figure img {
+     main picture img {
         margin: 0;
         width: 100%;
 
     }
+    
     
      #medium-grouping1 {
         display: block;

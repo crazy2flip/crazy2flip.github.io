@@ -120,12 +120,24 @@
     }
 
 
-    main figure { 
+    main picture { 
         margin: 0 auto; 
         width: 100%; 
     }
 
-    main figure img {
+    main image {
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    main picture { 
+        margin: 0 auto; 
+        width: 100%; 
+    }
+
+    main picture img {
         display: block;
         width: 100%;
         margin: 0;
@@ -250,7 +262,7 @@
     .footer-bar {
         background-color: #5F2D0A;
         color: #E6E6E6;
-        font-size: 0.5em;
+        font-size: 1rem;
         text-align: center;
         padding: 0.75rem 0;
         margin: 0;
