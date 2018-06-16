@@ -1,0 +1,148 @@
+@media only screen and (min-width: 64em ) {
+   
+    header h1 {
+        font-size: 4rem;
+    }
+    
+    header .subheading {
+        font-size: 2rem;
+    }
+    
+    
+    main {
+        padding: 0;
+        background-color: #B4B4B4;
+    }
+    
+    main picture {
+        width: 100%;  
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    
+     main picture img {
+        margin: 0;
+        width: 100%;
+
+    }
+    
+    
+     #medium-grouping1 {
+        display: block;
+        margin: 0; 
+
+    }
+    
+    main h2 {
+        width: 40%;
+    }
+    
+    .town-header {
+        margin: 1rem 2%;   
+    }
+  
+    nav ul li a{   
+        font-size: 1.5rem;
+    }
+    
+    .forecast-table {
+        font-size: 1.25em;
+    }
+    
+       
+    .weather-summary-content {
+        display: flex;
+        flex-direction: row;
+        padding: 2.5rem 0 ;
+    }
+    
+    .weather-summary {
+        margin: 0 2% 1rem;
+    }
+    
+    .current {
+        align-items: center;
+        width: 33.3%;
+        margin: 0;
+        padding: 0;    
+    }
+    
+    .current img {
+        margin: 0 0 0 2rem;
+    }
+ 
+    
+    #cur-state {
+        font-size: 1.5em;
+        margin: 0 2rem 0 0;           
+    }
+    
+    .highlow { 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        width: 33.3%;  
+        font-size: 1.5rem;
+    }
+    
+    .cur-temp {
+        width: 8rem;
+        padding: 3% 0;
+    }
+        
+    .conditions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 33.3%;
+        margin: 0;        
+        font-size: 1.5rem;
+    }
+    
+    .cur-con {
+        padding: 3% 0;
+    }
+    
+
+    .town-article {
+         font-size: 1.25rem;
+    }
+    
+    .contact{
+         font-size: 1.15rem;
+    }
+    
+    .weather-summary h3, .news-story h3, .forecast h3{
+        font-size: 1.75rem;
+    }
+    
+     .image-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 1.5rem auto;
+    }
+    
+    .image-grid figure:hover {
+       box-shadow: 0.5rem 0.5rem 2rem rgba(0,0,0,0.7);
+    }
+    
+    form label.sbs {
+        padding: 0.5rem 0.5rem;
+        
+    }
+    
+
+    .thank-you-line-one {
+        font-size: 2rem;
+    }
+
+    .thank-you-line-two{
+        font-size: 1.4rem;
+    }
+    
+
+    
+}

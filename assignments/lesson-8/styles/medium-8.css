@@ -1,0 +1,159 @@
+@media only screen and (min-width: 37.5em) {
+
+    header button { 
+        display:none; 
+    }  
+    
+    section.forecast { 
+        display: block; 
+    }  
+    
+    header h1 {
+        font-size: 2.5rem;
+    }
+    
+    header .subheading {
+        font-size: 1.5em;
+    }
+    
+    header img {
+      
+    }
+    
+    .header-title {
+        max-width: none;
+    }
+    
+    nav ul {
+        display: flex;     
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    nav ul.hide {
+        display: flex; 
+    }
+    
+    
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    
+     nav ul li a{   
+        font-size: 1.3rem;
+        border-top: none;
+        padding: 1rem;
+    }
+    
+    #medium-grouping1 {
+        display: flex;
+        margin: 1rem 2% 0;
+    }
+    
+    #medium-grouping1-sub {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        flex: 1 1 50%;
+    }
+   
+    main figure, main picture {
+        width: 50%;
+        margin-bottom: 1rem;
+    
+    }
+    
+    main figure img, main picture img {
+        height: 275px;
+        object-fit: cover;
+    }
+    
+  
+    main h2 {
+
+    }
+    
+    .town-header {
+        margin: 0 0 0 2%;
+    }
+    
+    .weather-summary{
+        margin: 2% 0 1rem 2%;
+    }
+    
+    .current {
+        flex-direction: row-reverse;
+        justify-content: center;
+        padding: 0;
+    }
+    
+    .current img {
+        width: 70%;
+        height: auto;
+        
+    }
+    
+    #cur-state {
+        margin: 5% 20% 0 0;
+        font-size: 1.5em;
+    }
+    
+    .cur-temp {
+    
+    }
+    
+    .highlow { 
+        width: 45%;
+        font-size: 1rem;
+        margin-left: 55%;
+        margin-top: -4rem;    
+    }
+    
+    .conditions {
+        width: 55%;
+        font-size: 1rem;
+        margin-left:45%;
+    }
+    
+    .news-story img {
+        float: right;
+        width: 50%;
+        padding: 0;
+        margin: 1em;
+    }
+    
+    .town-article {
+        margin: 1em auto;
+        font-size: 1rem;
+    }
+    
+    .contact, .footer-bar {
+         font-size: 1rem;
+    }
+    
+    .image-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        margin: 1rem auto;
+    }
+    
+    form legend {
+        padding: 0.25rem 1rem;
+        font-size: 1.25rem
+    }
+    
+    .thank-you {
+        height: 15rem;
+    }
+
+    .thank-you-line-one {
+        font-size: 1.4rem;
+    }
+
+    .thank-you-line-two{
+        font-size: 1rem;
+    }
+    
+
+  }
