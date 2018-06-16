@@ -354,27 +354,22 @@
         width: 100%;   
     }
 
-    form div.range-slider {
-        display: flex;
+    form label.range-header{
+        display: block;
+        width: 100%;
+        max-width: 615px;
+        margin: 0 auto;
         padding-top: 1rem;
         color: #404040;
-        max-width: 615px;
-        margin: 0 auto; 
-        align-items: center;
-        justify-content: flex-start;
     }
+    
 
-    form div.range-slider div.range-header{
-        width: 22%;
-        font-size: 1rem;
-    }
-
-    form div.range-slider input{
-        width: 76%;
-        margin: 0 0 0 2%;
+    form label.range-header input{
+        display: block;
         color:  #404040;
         height: 1rem;
-    
+        width: 100%;
+        margin-bottom: 0.25rem;
     }
 
    
@@ -395,7 +390,7 @@
 
     form label.sbs {
         display: block;
-        padding: 1rem 0.5rem;
+        padding: 1rem 0;
         color: #404040;    
         max-width: 615px;
         margin: 0 auto;

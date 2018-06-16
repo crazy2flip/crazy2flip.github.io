@@ -60,27 +60,25 @@
                             <option value="Tornado">
                         </datalist>
                     <div class="input-header">How severe is the storm? (Scale of 1 - 10)</div>
-                    <div class="range-slider">
-                        <div class="range-header">
-                            Severity Level: <span id="severity-value">5</span>
-                        </div>
+                        <label class="range-header">
+                            <input type="range" id="SeverityLevel" value="5" min="1" max="10" step="1" name="storm-severity" list="tick-marks" oninput="adjustSeverityLevel(this.value)" onchange="adjustSeverityLevel(this.value)">
+                            <datalist id="tick-marks">
+                                <option>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                            </datalist>
+                            Severity Level:&nbsp;<span id="severity-value">5</span>
+                        </label>
                         
-                        <input type="range" id="SeverityLevel" value="5" min="1" max="10" step="1" name="storm-severity" list="tick-marks" oninput="adjustSeverityLevel(this.value)" onchange="adjustSeverityLevel(this.value)">
-                        <datalist id="tick-marks">
-                            <option>0</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10</option>
-                        </datalist>
-                        
-                    </div>
+                   
                     <label class="top">Region
                         <select name="storm-region">
                             <option value="" selected disabled>Select Region</option>
