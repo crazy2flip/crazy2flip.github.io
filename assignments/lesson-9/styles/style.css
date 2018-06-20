@@ -103,7 +103,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4ddb4', end
 @media only screen and (min-width: 37.5em) {
 
 header {
-    min-height: height: 10rem;
+    min-height: 10rem;
 }
 h1 {
   font-size: 4rem;
