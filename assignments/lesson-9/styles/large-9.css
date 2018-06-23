@@ -57,7 +57,7 @@
     }
     
     .weather-summary {
-        margin: 0 2% 1rem;
+        margin: 0 2% 0;
     }
     
     .cur-weather-data {
@@ -122,7 +122,7 @@
          font-size: 1.15rem;
     }
     
-    .weather-summary h3, .news-story h3, .forecast h3, .news-story-hp h3, .town-summary-content h3 {
+    .weather-summary h3, .news-story h3, .forecast h3, .news-story-hp h3, .town-summary-content h3, .about-town-section h3 {
         font-size: 1.5rem;
     }
     

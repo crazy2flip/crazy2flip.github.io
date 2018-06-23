@@ -147,12 +147,16 @@
         padding: 0;
     }
 
-    .weather-summary, .news-story, .forecast {
+    .weather-summary, .news-story, .forecast, .about-town-section {
         border-style: solid;
         border-width: thin;
         border-color: #333333;
         margin: 1rem 2% 1rem;
         border-radius: 4px;
+    }
+
+    .about-town-section {
+        
     }
 
     .news-story-hp, .town-summary-content {
@@ -168,7 +172,7 @@
 
     }
 
-    .weather-summary h3, .news-story h3, .forecast h3, .news-story-hp h3, .town-summary-content h3{
+    .weather-summary h3, .news-story h3, .forecast h3, .news-story-hp h3, .town-summary-content h3, .about-town-section h3{
         background-color: #404040;
         margin: 0;
         color: #E2E200;
@@ -204,7 +208,7 @@
         white-space: nowrap;
         text-transform: capitalize;
         margin: 0;
-        font-weight: bold;
+        
         font-size: 1.1rem;
     }
     
@@ -273,9 +277,6 @@
         margin: 0 auto;
     }
 
-    .image-wrapper.towns {
-        margin: 0 auto;
-    }
 
     .town-article, .hp-article {
         font-size: 1em;
@@ -283,16 +284,45 @@
         margin: 1rem auto;
     }
 
-    .town-summary-data {
-        text-align: center;
-        padding: 0;
-        margin: 0.5rem auto;
+    .about-town-section {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem auto;
     }
+
+    .town-summary-data-wrapper {
+        margin: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .town-summary-data-wrapper ul {
+        text-align: left;
+        white-space: nowrap;    
+    }
+
+    .town-summary-data-wrapper ul li {
+       margin: 0.3rem auto;  
+    }
+
+    
+    .town-summary-data-wrapper p{
+        padding: 0;
+        margin: 0.3rem auto;
+        
+    }
+
+    
+    
 
     .town-summary-data.motto {
         font-weight: bold;
     }
 
+    .town-summary-data {
+        text-align: center;
+    }
 
 
     footer .contact {

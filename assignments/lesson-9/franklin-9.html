@@ -125,7 +125,25 @@
                 Vestibulum quis vulputate felis, vitae consectetur massa. Mauris non vestibulum ipsum. Pellentesque sagittis, neque a semper pharetra, ligula nisi porttitor nisl, et dignissim est tellus eu nisl. Etiam non ex sed est molestie pretium vitae ut quam. Proin in erat id mi efficitur fringilla. Maecenas accumsan elementum justo ut rhoncus. Morbi nec semper tellus. Praesent dapibus pharetra luctus. Nullam eget mauris arcu. Cras rutrum leo vel velit vulputate, sit amet commodo est tincidunt. Sed ut elementum metus. Pellentesque porta fermentum felis, eget commodo dolor euismod in.
                 </p>
                
-            </article>		  
+            </article>
+            
+            <article class="about-town">
+                <div class="about-town-section">     
+                    <h3>About <span id="name-data"></span></h3>	
+                    <div class="town-summary-data-wrapper">   
+                        <p class="town-summary-data motto"><span id="motto"></span></p>
+                        <p class="town-summary-data">Founded: <span id="year-founded"></span></p>
+                        <p class="town-summary-data">Current Popluation: <span id="num-people"></span></p>
+                        <p class="town-summary-data">Rainy Days Annually: <span id="rainy-days"></span></p>
+                    </div>
+                </div>
+                <div class="about-town-section">     
+                    <h3>Events</h3>
+                    <div class="town-summary-data-wrapper">  
+                        <ul id="town-events" class="town-summary-data"></ul>
+                    </div>
+                </div>
+            </article>
 
         </main>
 
@@ -147,5 +165,6 @@
         <script src="scripts/currentdate.js"></script>
         <script src="scripts/weatherapi.js"></script>
         <script src="scripts/windchill.js"></script>
+        <script src="scripts/town-data.js"></script>
     </body>
 </html>

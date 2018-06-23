@@ -222,7 +222,20 @@
         height: 100%;
         object-fit: cover;
         margin: 0;
-        
+    }
+    
+    .about-town {
+        display: flex;
+        width: 96%;
+        margin: 1rem auto;
+        justify-content: space-between;
+
+    }
+    
+    .about-town-section {
+        width: 49.25%;
+        padding: 0;
+        margin: 0;
         
     }
 
