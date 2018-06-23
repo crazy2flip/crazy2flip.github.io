@@ -142,7 +142,7 @@
         margin: 1rem;
     }
     
-    .town-article, .hp-article,  {
+    .town-article, .hp-article {
         margin: 1rem auto;
         
     }
@@ -210,7 +210,6 @@
     
     .image-wrapper {
         width: 49.25%;
-        overflow: aut;
         margin: 0;
     }
     
