@@ -25,11 +25,12 @@
         document.getElementById("cur-description").innerHTML = weatherData.weather[0].description;
         let imagesrc = "https://openweathermap.org/img/w/" + weatherData.weather[0].icon + ".png";
         document.getElementById("weather-icon").src = imagesrc;
-        document.getElementById("cur-temp").innerHTML = weatherData.main.temp;
+        var curTemp = weatherData.main.temp;
+        document.getElementById("cur-temp").innerHTML = curTemp;
         document.getElementById("humidity-level").innerHTML = weatherData.main.humidity;
-        var s = weatherData.wind.speed;
-        document.getElementById("wind-speed").innerHTML = s;
-        calculateWindChill(s);
+        var windSpeed = weatherData.wind.speed;
+        document.getElementById("wind-speed").innerHTML = windSpeed;
+        calculateWindChill(windSpeed, curTemp);
     }
 
     
