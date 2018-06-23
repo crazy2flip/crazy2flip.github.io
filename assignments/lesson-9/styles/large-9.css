@@ -27,7 +27,6 @@
 
     }
     
-    
      #medium-grouping1 {
         display: block;
         margin: 0; 
@@ -115,7 +114,7 @@
     }
     
 
-    .town-article {
+    .town-article, .hp-article, .town-summary-data {
          font-size: 1.25rem;
     }
     
@@ -123,8 +122,8 @@
          font-size: 1.15rem;
     }
     
-    .weather-summary h3, .news-story h3, .forecast h3{
-        font-size: 1.75rem;
+    .weather-summary h3, .news-story h3, .forecast h3, .news-story-hp h3, .town-summary-content h3 {
+        font-size: 1.5rem;
     }
     
      .image-grid {
@@ -149,7 +148,42 @@
     .thank-you-line-two{
         font-size: 1.4rem;
     }
+
     
+    .town-summary,  .town-summary.even  {
+       flex-direction: column;
+        width: 100%;   
+        height: auto;
+        margin: 0 0 1rem;
+    }
+    
+    .town-summary.middle {
+        margin: 0 1.5% 1rem;
+    }
+    
+    
+    .town-summary-content {
+        width: 100%;
+        border-style: none;
+    }
+    
+    
+    .city-info {
+        display: flex;
+        margin: 0 2%;
+    }
+    
+    .image-wrapper.towns {
+         width: 96%;
+        margin: 0 auto 0.5rem;
+        height: 150px;
+        
+    }
+    
+    .town-summary {
+        border-style: solid;
+    }
+
 
     
 }

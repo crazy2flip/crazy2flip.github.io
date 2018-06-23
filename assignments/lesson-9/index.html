@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head> 
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Franklin - Weather | Home Town Country Weather</title>
+        <meta name="description" content="A place to share weather related stories and connect with other residents from the tri-city area of Franklin, Greenville, and Springfield. Learn about current city events and little known hometown facts.">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One&text=Home%20Town%20Country%20Weather" rel="stylesheet">
+        <link rel="stylesheet" href="../../styles/normalize.css">
+        <link rel="stylesheet" href="styles/main-9.css">
+        <link rel="stylesheet" href="styles/medium-9.css">
+        <link rel="stylesheet" href="styles/large-9.css">
+    </head> 
+    <body>
+        <header>
+            <div class="header-img">
+                <img src="images/home-town-country-logo.png" alt="Home Town Country Logo">
+            </div>
+            <div class="header-title">
+                <h1>Home Town Country Weather</h1>
+                <div class="subheading">Shine or Rain Let's Go Out and Play</div>
+            </div>
+            <button id="HambugerButton" onclick="toggleMenu();">&#9776;</button>
+        </header>
+
+        <nav>
+            
+            <ul id="primaryNav" class="hide">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="franklin-9.html">Franklin</a></li>
+                <li><a href="#">Greenville</a></li>
+                <li><a href="#">Springfield</a></li>
+                <li><a href="stormcenter.html">Storm&nbsp;Center</a></li>
+                <li><a href="gallery-9.html">Gallery</a></li>
+            </ul>		
+        </nav>
+
+        <main>
+            <article class="homepage-weather-story">
+                <div class="news-story-hp">     
+                    <h3>Lighting Stikes</h3>	
+                    <p class="hp-article">
+                    Etiam in suscipit est. Vestibulum consectetur suscipit neque, non vestibulum augue feugiat at. Donec eu fringilla lacus. Phasellus imperdiet mattis feugiat. Nullam in consectetur nisl, non lobortis leo. Mauris et quam elit. Duis ac varius quam.
+                    </p>
+                    <p class="hp-article">
+                    VProin in erat id mi efficitur fringilla. Maecenas accumsan elementum justo ut rhoncus. Morbi nec semper tellus. Praesent dapibus pharetra luctus. Nullam eget mauris arcu. Cras rutrum leo vel velit vulputate, sit amet commodo est tincidunt. Sed ut elementum metus. Pellentesque porta fermentum felis, eget commodo dolor euismod in.
+                    </p>
+                </div>
+                <div class="image-wrapper">
+                    <img class="hp-img" src="images/city-light-up-at-night-by-lighting.jpg" alt="City Light Up at Night by Lighting">
+                </div>
+            </article>
+
+            <section class="city-info">
+                <article class="town-summary even">
+                    <div class="town-summary-content">     
+                        <h3>Franklin</h3>	
+                        <p class="town-summary-data motto"><span id="motto-f"></span></p>
+                        <p class="town-summary-data">Founded: <span id="year-founded-f"></span></p>
+                        <p class="town-summary-data">Current Popluation: <span id="num-people-f"></span></p>
+                        <p class="town-summary-data">Rainy Days Annually: <span id="rainy-days-f"></span></p>
+                    </div>
+                    <div class="image-wrapper towns">
+                        <img class="town-summary-img" src="images/franklin-large.jpg" alt="mountains and prairies">
+                    </div>
+                </article>
+                
+                <article class="town-summary middle">
+                    <div class="town-summary-content">     
+                        <h3>Greenville</h3>	
+                        <p class="town-summary-data  motto"><span id="motto-g"></span></p>
+                        <p class="town-summary-data">Founded: <span id="year-founded-g"></span></p>
+                        <p class="town-summary-data">Current Popluation: <span id="num-people-g"></span></p>
+                        <p class="town-summary-data">Rainy Days Annually: <span id="rainy-days-g"></span></p>
+                    </div>
+                    <div class="image-wrapper towns">
+                        <img class="town-summary-img" src="images/bare-trees-against-sky-during-sunset.jpg" alt="Bare Trees Against Sky During Sunset">
+                    </div>
+                </article>
+                
+                <article class="town-summary even">
+                    <div class="town-summary-content">     
+                        <h3>Springfield</h3>	
+                        <p class="town-summary-data  motto"><span id="motto-s"></span></p>
+                        <p class="town-summary-data">Founded: <span id="year-founded-s"></span></p>
+                        <p class="town-summary-data">Current Popluation: <span id="num-people-s"></span></p>
+                        <p class="town-summary-data">Rainy Days Annually: <span id="rainy-days-s"></span></p>
+                    </div>
+                    <div class="image-wrapper towns">
+                        <img class="town-summary-img" src="images/view-of-city-scrap-covered-with-fog.jpg" alt="View of City Scrap Covered with Fog">
+                        <p class="town-summary-data">
+                        
+                        </p>
+                    </div>
+                </article>
+                
+                
+            </section>
+
+            
+
+        </main>
+
+        <footer>
+            <aside>
+                <section class="contact">
+                    <h4>Contact Us</h4>
+                    <p class="contact-info">123 Main St.</p>
+                    <p class="contact-info">Franklin, US 99999</p>
+                    <p class="contact-info">999.999.9999</p>
+                    <p class="contact-info">HCW@url.com</p>
+                </section>
+                <p class="footer-bar">
+                    &copy;2018 | All Rights Reserved | Home Town Country Weather | <span id="currentdate">Current Date</span>
+                </p>
+            </aside>
+        </footer>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/town-data.js"></script>
+    </body>
+</html>

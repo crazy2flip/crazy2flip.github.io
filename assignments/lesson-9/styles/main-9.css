@@ -128,16 +128,11 @@
     }
 
 
-    main picture { 
-        margin: 0 auto; 
-        width: 100%; 
-    }
-
-    main image {
+    main img {
         display: block;
         width: 100%;
         margin: 0;
-        padding: 0;
+ 
     }
 
     main picture { 
@@ -156,12 +151,24 @@
         border-style: solid;
         border-width: thin;
         border-color: #333333;
-        margin: 0 2% 1rem;
+        margin: 1rem 2% 1rem;
         border-radius: 4px;
-       
     }
 
-    .weather-summary h3, .news-story h3, .forecast h3 {
+    .news-story-hp, .town-summary-content {
+        border-radius: 4px;
+    }
+
+    .homepage-weather-story, .town-summary {
+        margin: 1rem 2% 1rem;
+        border-style: solid;
+        border-width: thin;
+        border-color: #333333;
+        border-radius: 4px;
+
+    }
+
+    .weather-summary h3, .news-story h3, .forecast h3, .news-story-hp h3, .town-summary-content h3{
         background-color: #404040;
         margin: 0;
         color: #E2E200;
@@ -192,6 +199,7 @@
         height: auto;
     }
 
+    
     #cur-description {
         white-space: nowrap;
         text-transform: capitalize;
@@ -259,17 +267,33 @@
         background: #AD4900;
     }
 
-    .news-story img {
-        width: 100%;
-        height: auto;
-        padding: 0.5em 3em;
+    .news-story img, .hp-img, .image-wrapper {
+        width: 96%;
+        padding: 0;
+        margin: 0 auto;
     }
 
-    .town-article {
+    .image-wrapper.towns {
+        margin: 0 auto;
+    }
+
+    .town-article, .hp-article {
         font-size: 1em;
         width: 96%;
-        margin: 0 auto 1rem;
+        margin: 1rem auto;
     }
+
+    .town-summary-data {
+        text-align: center;
+        padding: 0;
+        margin: 0.5rem auto;
+    }
+
+    .town-summary-data.motto {
+        font-weight: bold;
+    }
+
+
 
     footer .contact {
         background: #AD4900;
@@ -480,8 +504,4 @@
         margin: 0;
     }
 
-  
-
-
-
-
+   
