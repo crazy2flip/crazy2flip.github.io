@@ -147,7 +147,7 @@
         padding: 0;
     }
 
-    .weather-summary, .news-story, .forecast, .about-town-section {
+    .weather-summary, .news-story, .forecast {
         border-style: solid;
         border-width: thin;
         border-color: #333333;
@@ -155,9 +155,6 @@
         border-radius: 4px;
     }
 
-    .about-town-section {
-        
-    }
 
     .news-story-hp, .town-summary-content {
         border-radius: 4px;
@@ -271,10 +268,10 @@
         background: #AD4900;
     }
 
-    .news-story img, .hp-img, .image-wrapper {
+    .news-story img, .image-wrapper {
         width: 96%;
         padding: 0;
-        margin: 0 auto;
+        margin: 1rem auto;
     }
 
 
@@ -282,6 +279,14 @@
         font-size: 1em;
         width: 96%;
         margin: 1rem auto;
+    }
+
+    .about-town-section {
+            width: 96%;
+            border-style: solid;
+            border-width: thin;
+            border-color: #333333;
+            border-radius: 4px;
     }
 
     .about-town-section {
