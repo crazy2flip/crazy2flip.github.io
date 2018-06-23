@@ -83,30 +83,26 @@
     }
     
     .weather-summary-content {
-        align-items: center;
-        justify-content: center;
-       
+        align-items: flex-start;   
     }
     
     .current {
         flex-direction: row-reverse;
-        justify-content: space-between;
+        justify-content: center;
         width: 100%;
+        margin-bottom: -1rem;
     }
     
     #image-wrapper {  
-        width: 50%;
+
     }
     
     .current img {
         width: 5rem;
-        margin: 0 auto;
     }
     
     #cur-description {
-        font-size: 1.5rem;
-        margin: 0;
-        width: 50%;
+        font-size: 1.2rem;
     }
     
     .cur-weather-data {
@@ -114,21 +110,25 @@
       
     }
     
-    .temp {
+    .hi-low {
+        margin: 0.5rem 0;
         flex-direction: column;
-    
+        align-items: center;
     }
     
-    .hi-low { 
-         margin: 0.5rem 0;
-         flex-direction: column;
+    #deg {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+       
     }
-    
-    
     
     .conditions {
-    
-        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;    
     }
     
     .news-story img {
