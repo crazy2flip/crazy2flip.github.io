@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head> 
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Springfield - Weather | Home Town Country Weather</title>
+        <meta name="description" content="A place to share weather related stories and connect with other residents from the tri-city area of Franklin, Greenville, and Springfield. Learn about current city events and little known hometown facts.">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One&text=Home%20Town%20Country%20Weather" rel="stylesheet">
+        <link rel="stylesheet" href="/assignments/weathersite/styles/normalize.css">
+        <link rel="stylesheet" href="/assignments/weathersite/styles/main.css">
+        <link rel="stylesheet" href="/assignments/weathersite/styles/medium.css">
+        <link rel="stylesheet" href="/assignments/weathersite/styles/large.css">
+    </head> 
+    <body>
+        <header>
+            <div class="header-img">
+                <a href="/assignments/weathersite/index.html"><img src="/assignments/weathersite/images/home-town-country-logo.png" alt="Home Town Country Logo"></a>
+            </div>
+            <div class="header-title">
+                <h1>Home Town Country Weather</h1>
+                <div class="subheading">Shine or Rain Let's Go Out and Play</div>
+            </div>
+            <button id="HambugerButton" onclick="toggleMenu();">&#9776;</button>
+        </header>
+
+        <nav>
+            
+            <ul id="primaryNav" class="hide" >
+                <li><a href="/assignments/weathersite/index.html">Home</a></li>
+                <li><a href="/assignments/weathersite/franklin.html">Franklin</a></li>
+                <li><a href="/assignments/weathersite/greenville.html">Greenville</a></li>
+                <li><a href="/assignments/weathersite/springfield.html">Springfield</a></li>
+                <li><a href="/assignments/weathersite/stormcenter.html">Storm&nbsp;Center</a></li>
+                <li><a href="/assignments/weathersite/gallery.html">Gallery</a></li>
+            </ul>		
+        </nav>
+
+        <main>
+            <div id="medium-grouping1">
+                <picture>
+                    <source media="(min-width: 64em)" srcset="images/springfield-large.jpg">
+                    <source media="(min-width: 37.5em)" srcset="images/springfield-medium.jpg">
+                    <img src="images/springfield-small.jpg" alt="Green Open Field and Blue Sky">
+                </picture>
+                <div id="medium-grouping1-sub">
+                    <div class="town-header">
+                        <h2 id="town-name">Springfield</h2>
+                    </div>
+
+                    <section class="weather-summary">
+                        <h3>Today's Weather</h3>  
+                        <div class="weather-summary-content">
+                            <div class="current">
+                                <p id="cur-description"></p>
+                            
+                                    <img id="weather-icon" src="" alt="Current weather icon">
+                                
+                            </div>
+                            <div class=cur-weather-data>
+                                <div id="deg">
+                                        <p id="cur-deg"><span id="cur-temp"></span>°F</p>
+                                    <div class="hi-low">
+                                        <p class="temp">High: <span id="high-temp">90</span>°F</p>  
+                                        <p class="temp">Low: <span id="low-temp">66</span>°F</p>  
+                                    </div>
+                                </div>
+                                <div class="conditions">
+                                    <div class="conditions-center">
+                                    <p class="cur-con">Humidity: <span id="humidity-level"></span>%</p>
+                                    <p class="cur-con">Precipitation: 0%</p>  
+                                    <p class="cur-con">Wind: <span id="wind-speed"></span> mph</p>
+                                    <p class="cur-con">Wind Chill: <span id="wind-chill"></span>°F</p> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <section class="forecast">
+                <h3>Ten Day Forecast</h3>
+                <table id="tenDayForecast" class="forecast-table">
+                    <thead>
+                        <tr>
+                            <th>Day 1</th>
+                            <th>Day 2</th>
+                            <th>Day 3</th>
+                            <th>Day 4</th>
+                            <th>Day 5</th>
+                            <th>Day 6</th>
+                            <th>Day 7</th>
+                            <th>Day 8</th>
+                            <th>Day 9</th>
+                            <th>Day 10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="" alt=""></td>
+                            <td><img src="" alt=""></td>
+                            <td><img src="" alt=""></td>
+                            <td><img src="" alt=""></td>
+                            <td><img src="" alt=""></td>
+                            <td><img src="" alt=""></td>
+                            <td><img src="" alt=""></td>
+                            <td><img src="" alt=""></td>
+                            <td><img src="" alt=""></td>
+                            <td><img src="" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>89&deg;F</td>
+                            <td>87&deg;F</td>
+                            <td>78&deg;F</td>
+                            <td>75&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>79&deg;F</td>
+                            <td>83&deg;F</td>
+                            <td>85&deg;F</td>
+                            <td>89&deg;F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <article class="news-story">
+                <h3>Reaching New Heights</h3>	
+                <img src="images/action-adventure-air.jpg" alt="Hambugers Sizzling on Grill">
+                <p class="town-article">Cras lorem quam, tempor eu ornare a, sagittis nec ligula. Donec eleifend arcu at vestibulum consectetur. Fusce dapibus diam dapibus pellentesque mollis. Integer ut dapibus quam. Vivamus maximus condimentum ligula, in suscipit diam tincidunt a. Phasellus et molestie sapien. Cras quis ipsum nec sem convallis commodo non at libero. Cras malesuada, lorem nec molestie fringilla, lacus elit aliquet nulla, nec egestas sem arcu eu sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse fringilla, lorem at posuere eleifend, nulla quam tincidunt risus, at pulvinar erat purus sed ipsum. Quisque cursus non leo quis vulputate. Fusce non urna a tortor tincidunt tincidunt.
+                </p>
+                <p class="town-article">
+                Etiam in suscipit est. Vestibulum consectetur suscipit neque, non vestibulum augue feugiat at. Donec eu fringilla lacus. Phasellus imperdiet mattis feugiat. Nullam in consectetur nisl, non lobortis leo. Mauris et quam elit. Duis ac varius quam.
+                </p>
+                <p class="town-article">
+                Vestibulum quis vulputate felis, vitae consectetur massa. Mauris non vestibulum ipsum. Pellentesque sagittis, neque a semper pharetra, ligula nisi porttitor nisl, et dignissim est tellus eu nisl. Etiam non ex sed est molestie pretium vitae ut quam. Proin in erat id mi efficitur fringilla. Maecenas accumsan elementum justo ut rhoncus. Morbi nec semper tellus. Praesent dapibus pharetra luctus. Nullam eget mauris arcu. Cras rutrum leo vel velit vulputate, sit amet commodo est tincidunt. Sed ut elementum metus. Pellentesque porta fermentum felis, eget commodo dolor euismod in.
+                </p>
+               
+            </article>
+            
+            <article class="about-town">
+                <div class="about-town-section">     
+                    <h3>About <span id="name-data"></span></h3>	
+                    <div class="town-summary-data-wrapper">   
+                        <p class="town-summary-data motto"><span id="motto"></span></p>
+                        <p class="town-summary-data">Founded: <span id="year-founded"></span></p>
+                        <p class="town-summary-data">Current Popluation: <span id="num-people"></span></p>
+                        <p class="town-summary-data"># Rainy Days Annually: <span id="rainy-days"></span></p>
+                    </div>
+                </div>
+                <div class="about-town-section">     
+                    <h3>Events</h3>
+                    <div class="town-summary-data-wrapper">  
+                        <ul id="town-events" class="town-summary-data"></ul>
+                    </div>
+                </div>
+            </article>
+
+        </main>
+
+        <footer>
+            <aside>
+                <section class="contact">
+                    <h4>Contact Us</h4>
+                    <p class="contact-info">123 Main St.</p>
+                    <p class="contact-info">Franklin, US 99999</p>
+                    <p class="contact-info">999.999.9999</p>
+                    <p class="contact-info">HCW@url.com</p>
+                </section>
+                <p class="footer-bar">
+                    &copy;2018 | All Rights Reserved | Home Town Country Weather |<span id="APIRef"></span> <span id="currentdate">Current Date</span>
+                </p>
+            </aside>
+        </footer>
+        <script src="scripts/wayfinder.js"></script>
+        <script src="scripts/weatherapi.js"></script>
+        <script src="scripts/windchill.js"></script>
+        <script src="scripts/town-data.js"></script>
+        <script src="scripts/currentdate-and-weather.js"></script>
+        <script src="scripts/hamburger.js"></script>
+    </body>
+</html>

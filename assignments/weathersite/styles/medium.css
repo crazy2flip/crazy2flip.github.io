@@ -1,0 +1,255 @@
+@media only screen and (min-width: 37.5em) {
+
+
+/* ------------ Header ------------ */
+    header button { 
+        display:none; 
+    }  
+    
+    header h1 {
+        font-size: 2.5rem;
+    }
+    
+    header .subheading {
+        font-size: 1.6rem;
+    }
+
+/* ------------ Navigation ------------ */
+ 
+    
+    
+    nav ul {
+        display: flex;     
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    nav ul.hide {
+        display: flex; 
+    }
+    
+    
+    nav ul li {
+        flex: 1 1 100%;
+    }
+    
+     nav ul li a{   
+        font-size: 1.3rem;
+        border-top: none;
+        padding: 1rem;
+    }
+    
+/* ------------ Main Head ------------ */
+    
+    .town-header {
+        margin: 0 0 0 2%;
+    }
+    
+    main picture {
+        width: 50%;
+        height: 17rem;
+    }
+    
+    main picture img {
+        object-fit: cover;
+    }
+    
+    #medium-grouping1 {
+        display: flex;
+        margin: 1rem 2% 0;
+    }
+    
+    #medium-grouping1-sub {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        flex: 1 1 50%;
+    }
+
+/* ------------ Main General ------------ */
+    
+    
+ 
+/* ------------ Main Current Weather Infomation ------------ */
+
+    .weather-summary{
+        margin: 0.5rem 0 0 2%;
+    }
+    
+    .weather-summary-content {
+        align-items: flex-start;   
+    }
+    
+    .current {
+        flex-direction: row-reverse;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: -1rem;
+    }
+    
+    .current img {
+        width: 5rem;
+    }
+    
+    #cur-description {
+        font-size: 1.2rem;
+    }
+    
+    .cur-weather-data {
+        flex-direction: row;
+      
+    }
+    
+    #deg {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+       
+    }
+    
+    .hi-low {
+        margin: 0.5rem 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .conditions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;    
+    }
+    
+/* ------------ Forecast ------------ */
+    
+    section.forecast { 
+        display: block; 
+    }  
+
+    
+/* ------------ News Story ------------ */
+    
+    
+    .news-story img {
+        float: right;
+        width: 50%;
+        margin: 1rem;
+    }
+    
+    .town-article, .hp-article {
+        margin: 1rem auto;
+        
+    }
+    
+/* ------------ Town Infomation ------------ */
+    
+    .town-summary-data {
+        margin: 0.5rem auto;
+    }
+    
+    .about-town {
+        display: flex;
+        width: 96%;
+        margin: 1rem auto;
+        justify-content: space-between;
+    }
+    
+    .about-town-section {
+        width: 49.25%;
+        padding: 0;
+        margin: 0;
+    }
+/* ------------ Footer ------------ */
+
+    
+    .contact, .footer-bar {
+         font-size: 1rem;
+    }
+    
+/* ------------ Gallery ------------ */
+    
+    .image-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        margin: 1rem auto;
+    }
+    
+    .image-grid figure img {
+        height: 300px;
+        object-fit: cover;
+    }   
+
+/* ------------ Storm Center ------------ */
+    
+    form legend {
+        padding: 0.25rem 1rem;
+        font-size: 1.25rem
+    }
+    
+    .thank-you {
+        height: 15rem;
+    }
+
+    .thank-you-line-one {
+        font-size: 1.4rem;
+    }
+
+    .thank-you-line-two{
+        font-size: 1rem;
+    }
+    
+/* ------------ Home Page ------------ */
+    
+     .news-story-hp, .town-summary-content {
+        border-style: solid;
+        border-width: thin;
+        border-color: #333333;
+        border-radius: 4px;
+        width: 39.5%;    
+    }
+    
+    .homepage-weather-story, .town-summary {
+        background-color: transparent;
+    }
+    
+    .news-story-hp, .town-summary-content {
+        background-color: #D3D3D3;
+    }
+
+    .homepage-weather-story {
+        display:flex; 
+        border-style: none;
+        justify-content: space-between;
+        
+       
+    }
+    
+    .town-summary {
+        display:flex; 
+        border-style: none;
+        justify-content: space-between;   
+        height: 15rem;
+    }
+    
+    .town-summary.even {
+        flex-direction: row-reverse;      
+    }
+    
+    .image-wrapper {
+        width: 59%;
+        margin: 0;
+    }
+    
+    .image-wrapper.towns {
+        margin: 0;
+    }
+
+     .hp-img, .town-summary-img {
+        height: 100%;
+        object-fit: cover;
+        margin: 0;
+    }    
+
+  }

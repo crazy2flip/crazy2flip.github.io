@@ -1,0 +1,184 @@
+@media only screen and (min-width: 64em ) {
+   
+    
+/* ------------ Header ------------ */
+    header h1, main h2 {
+        font-size: 3rem;
+    }
+    
+    header .subheading {
+        font-size: 1.6rem;
+    }
+    
+/* ------------ Navigation ------------ */    
+    
+    nav ul li a{   
+        font-size: 1.5rem;
+    }
+
+/* ------------ Main Head ------------ */
+    
+    .town-header {
+        margin: 1rem 2%;
+    }
+    
+    main picture {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 20rem;        
+    }
+    
+    
+    
+     #medium-grouping1 {
+        display: block;
+        margin: 0; 
+
+    }
+  
+
+    
+/* ------------ Main Current Weather Infomation ------------ */
+       
+    .weather-summary-content {
+        flex-direction: row;
+        padding: 2rem 0 ;
+        align-items: center;
+    }
+    
+    .weather-summary {
+        margin: 0 2% 0;
+    }
+    
+    .cur-weather-data {
+        width: 66.6666%;
+    }
+    
+    .current {
+        width: 33.3333%;
+        margin: 0;
+        padding: 0;    
+    
+    }
+    
+    .current img {
+        margin: 0;
+        width: 7rem; 
+    }
+ 
+    
+    #cur-description, .hi-low, .conditions  {
+        font-size: 1.5rem;
+                 
+    }
+    
+     #deg {
+         margin: 0
+    }
+    
+    .hi-low { 
+        margin: 0;
+    }
+    
+    #cur-deg {
+        font-size: 2rem;
+    }
+    
+    .temp {
+        width: 8rem;
+        padding: 0.3rem 0;
+    }
+        
+    .conditions {
+        margin: 0;        
+    }
+    
+    .cur-con {
+        padding: 0.2rem 0;
+    }
+    
+    
+/* ------------ Forecast ------------ */
+    
+    
+    .forecast-table th { 
+        font-size: 1.5rem;
+    }
+    
+    .forecast-table td {
+        font-size: 1.25rem;
+    }
+    
+
+    .town-article, .hp-article, .town-summary-data {
+         font-size: 1.25rem;
+    }
+    
+    .contact{
+         font-size: 1.15rem;
+    }
+    
+    .weather-summary h3, .news-story h3, .forecast h3, .news-story-hp h3, .town-summary-content h3, .about-town-section h3 {
+        font-size: 1.5rem;
+    }
+    
+     .image-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 1.5rem auto;
+    }
+    
+    .image-grid figure:hover {
+       box-shadow: 0.5rem 0.5rem 2rem rgba(0,0,0,0.7);
+    }
+    
+    form label.sbs {
+        padding: 0.5rem 0;
+        
+    }
+    
+
+    .thank-you-line-one {
+        font-size: 2rem;
+    }
+
+    .thank-you-line-two{
+        font-size: 1.4rem;
+    }
+
+/* ------------ Home Page ------------ */
+    
+    
+    .city-info {
+        display: flex;
+        margin: 0 2%;
+    }
+    
+    .town-summary,  .town-summary.even  {
+        flex-direction: column;
+        width: 100%;   
+        height: auto;
+        margin: 0 0 1rem;
+        border-style: solid;
+        background-color: #D3D3D3;
+    }
+    
+    .town-summary.middle {
+        margin: 0 1.5% 1rem;
+    }
+    
+    .town-summary-content {
+        width: 100%;
+        border-style: none;
+        background-color: transparent;
+    }
+    
+    .image-wrapper.towns {
+        width: 96%;
+        margin: 0 auto 0.5rem;
+        height: 10rem;        
+    }
+    
+    
+}

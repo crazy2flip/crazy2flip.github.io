@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head> 
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Tri-Cities Home Page - Weather | Home Town Country Weather</title>
+        <meta name="description" content="A place to share weather related stories and connect with other residents from the tri-city area of Franklin, Greenville, and Springfield. Learn about city facts and news from the tri-city area.">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One&text=Home%20Town%20Country%20Weather" rel="stylesheet">
+        <link rel="stylesheet" href="/assignments/weathersite/styles/normalize.css">
+        <link rel="stylesheet" href="/assignments/weathersite/styles/main.css">
+        <link rel="stylesheet" href="/assignments/weathersite/styles/medium.css">
+        <link rel="stylesheet" href="/assignments/weathersite/styles/large.css">
+    </head> 
+    <body>
+        <header>
+            <div class="header-img">
+                <a href="/assignments/weathersite/index.html"><img src="/assignments/weathersite/images/home-town-country-logo.png" alt="Home Town Country Logo"></a>
+            </div>
+            <div class="header-title">
+                <h1>Home Town Country Weather</h1>
+                <div class="subheading">Shine or Rain Let's Go Out and Play</div>
+            </div>
+            <button id="HambugerButton" onclick="toggleMenu();">&#9776;</button>
+        </header>
+
+        <nav>
+            
+            <ul id="primaryNav" class="hide" >
+                <li><a href="/assignments/weathersite/index.html">Home</a></li>
+                <li><a href="/assignments/weathersite/franklin.html">Franklin</a></li>
+                <li><a href="/assignments/weathersite/greenville.html">Greenville</a></li>
+                <li><a href="/assignments/weathersite/springfield.html">Springfield</a></li>
+                <li><a href="/assignments/weathersite/stormcenter.html">Storm&nbsp;Center</a></li>
+                <li><a href="/assignments/weathersite/gallery.html">Gallery</a></li>
+            </ul>		
+        </nav>
+
+        <main>
+            <article class="homepage-weather-story">
+                <div class="news-story-hp">     
+                    <h3>Going Places</h3>
+                    <p class="hp-article">
+                     Etiam in suscipit est. Vestibulum consectetur suscipit neque, non vestibulum augue feugiat at. Donec eu fringilla lacus. Phasellus imperdiet mattis feugiat. 
+                    </p>
+                    <p class="hp-article">
+                        Proin in erat id mi efficitur fringilla. Maecenas accumsan elementum justo ut rhoncus. Morbi nec semper tellus. Nullam in consectetur nisl, non lobortis leo. Mauris et quam elit. Duis ac varius quam.
+                    </p>
+                    
+                    
+                </div>
+                <div class="image-wrapper">
+                    <img class="hp-img" src="images/adventures-alberta-alpine.jpg" alt="Adventure near Alberta Alpine">
+                </div>
+            </article>
+
+            <div class="city-info">
+                <article class="town-summary even">
+                    <div class="town-summary-content">     
+                        <a class="undecorated-link" href="franklin.html"><h3 class="clickable-header">Franklin</h3></a>
+                        <div class="town-summary-data-wrapper"> 
+                            <p class="town-summary-data motto"><span id="motto-franklin"></span></p>
+                            <p class="town-summary-data">Founded: <span id="year-founded-franklin"></span></p>
+                            <p class="town-summary-data">Current Popluation: <span id="num-people-franklin"></span></p>
+                            <p class="town-summary-data">Rainy Days Annually: <span id="rainy-days-franklin"></span></p>
+                        </div>
+                    </div>
+                    <div class="image-wrapper towns">
+                        <img class="town-summary-img" src="images/franklin-large.jpg" alt="mountains and prairies">
+                    </div>
+                </article>
+                
+                <article class="town-summary middle">
+                    <div class="town-summary-content">     
+                        <a class="undecorated-link" href="greenville.html"><h3 class="clickable-header">Greenville</h3></a>
+                        <div class="town-summary-data-wrapper"> 
+                            <p class="town-summary-data  motto"><span id="motto-greenville"></span></p>
+                            <p class="town-summary-data">Founded: <span id="year-founded-greenville"></span></p>
+                            <p class="town-summary-data">Current Popluation: <span id="num-people-greenville"></span></p>
+                            <p class="town-summary-data">Rainy Days Annually: <span id="rainy-days-greenville"></span></p>
+                        </div>
+                    </div>
+                    <div class="image-wrapper towns">
+                        <img class="town-summary-img" src="images/greenville-large.jpg" alt="Bare Trees Against Sky During Sunset">
+                    </div>
+                </article>
+                
+                <article class="town-summary even">
+                    <div class="town-summary-content">     
+                        <a class="undecorated-link" href="springfield.html"><h3 class="clickable-header">Springfield</h3></a>
+                        <div class="town-summary-data-wrapper"> 
+                            <p class="town-summary-data  motto"><span id="motto-springfield"></span></p>
+                            <p class="town-summary-data">Founded: <span id="year-founded-springfield"></span></p>
+                            <p class="town-summary-data">Current Popluation: <span id="num-people-springfield"></span></p>
+                            <p class="town-summary-data">Rainy Days Annually: <span id="rainy-days-springfield"></span></p>
+                        </div>
+                    </div>
+                    <div class="image-wrapper towns">
+                        <img class="town-summary-img" src="images/springfield-large.jpg" alt="View of City Scrap Covered with Fog">
+                        <p class="town-summary-data">
+                        
+                        </p>
+                    </div>
+                </article>
+                
+                
+            </div>
+
+            
+
+        </main>
+
+        <footer>
+            <aside>
+                <section class="contact">
+                    <h4>Contact Us</h4>
+                    <p class="contact-info">123 Main St.</p>
+                    <p class="contact-info">Franklin, US 99999</p>
+                    <p class="contact-info">999.999.9999</p>
+                    <p class="contact-info">HCW@url.com</p>
+                </section>
+                <p class="footer-bar">
+                    &copy;2018 | All Rights Reserved | Home Town Country Weather |<span id="APIRef"></span> <span id="currentdate">Current Date</span>
+                </p>
+            </aside>
+        </footer>
+        <script src="scripts/wayfinder.js"></script>
+        <script src="scripts/town-data.js"></script>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/hamburger.js"></script>
+    </body>
+</html>

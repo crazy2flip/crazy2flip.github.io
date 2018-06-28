@@ -1,0 +1,610 @@
+/* ------------ General ------------ */
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-size: 16px;
+        font-family: "arial", sans-serif; 
+
+    }
+
+    header, nav, main, footer {
+        max-width: 1230px;
+        margin: 0 auto; 
+    }
+
+
+/* ------------ Header ------------ */
+    header {
+        display: flex;
+        background-color: #AD4900;   
+        align-items: center;
+        justify-content: flex-start;
+    } 
+
+    .header-img {
+        max-width: 10%;
+        padding: .5rem 0;
+        margin: 0 0 0 4%;
+    }
+    
+    header img {
+        width: 100%;
+    }
+
+    .header-title {
+        display: flex;
+        flex: 1 1 auto;
+        align-items: center;
+        flex-direction: column;
+        padding: 0.5rem 0;
+    }
+
+    header h1 {
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 1.2rem;
+        font-style: italic;
+        color: #E6E6E6;
+        margin: 0 0 0.5rem 0;
+    }
+
+
+    header .subheading {
+        font-family: Arial, sans-serif;
+        font-style: italic;
+        font-weight: bold;
+        font-size: 0.8rem;
+        color: #E6E6E6;  
+    }
+
+    header h1, header .subheading {
+        text-shadow:
+            -1px -1px 0 #000000,
+            1px -1px 0 #000000,
+            -1px 1px 0 #000000,
+            1px 1px 0 #000000;
+    }
+
+
+    header button {
+        background-color: transparent;
+        border: none;   
+        width: 1.8rem;
+        font-size: 1.6rem;
+        color: #ffffff;
+        padding: 0 1rem 0 0;
+        align-self: flex-end;
+    }
+
+    header button:hover, header button:focus {
+        color: rgba(0,0,0,0.5);
+    }
+
+/* ------------ Navigation ------------ */
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;   
+    }
+
+    nav ul.hide {
+        display: none; 
+    }
+    nav ul li a {
+        display: block;
+        padding: .8rem 0;
+        text-decoration: none;
+        text-align: center;
+        color: #E2E200;
+        background-color: #404040;  
+        border-top: thin solid rgba(0,0,0,0.3);
+        white-space: nowrap;
+        text-shadow:
+            -1px -1px 0 #000000,
+            1px -1px 0 #000000,
+            -1px 1px 0 #000000,
+            1px 1px 0 #000000;
+        
+    }
+
+    nav ul li a:hover {
+        background-color: rgba(0,0,0,0.5);  
+    }
+
+    nav ul li.active a {
+        color: #FFFFFF;
+        background-color: rgba(0,0,0,0.8);  
+    }
+
+/* ------------ Main Head------------ */
+
+    main {
+        background-color: #B4B4B4;
+        overflow: auto;
+        min-height: 20rem
+    }
+
+    main h2 {
+        color: #E2E200;
+        text-align: center;
+        font-size: 3rem;
+        margin: 0 auto;    
+    }
+
+    .body-header, .town-header {
+        margin: 1rem 2%; 
+    }
+    
+    main h2 {
+        text-shadow:
+            -1px -1px 0 #000000,
+            1px -1px 0 #000000,
+            -1px 1px 0 #000000,
+            1px 1px 0 #000000;
+    } 
+
+    main img {
+        display: block;
+        width: 100%;
+        margin: 0;
+ 
+    }
+
+    main picture img {
+        display: block;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+/* ------------ Main General ------------ */
+
+    .weather-summary, .news-story, .forecast, .homepage-weather-story, .town-summary, .about-town-section {
+        border-style: solid;
+        border-width: thin;
+        border-color: #333333;
+        border-radius: 4px;        
+    }    
+
+    .weather-summary, .news-story, .forecast, .homepage-weather-story, .town-summary, .about-town-section {
+        background-color: #D3D3D3;
+    }
+
+    .weather-summary, .news-story, .forecast, .homepage-weather-story, .town-summary {
+        margin: 1rem 2% 1rem;
+    }
+
+    .about-town-section {
+        width: 96%;
+        margin: 0;
+    }
+
+    .weather-summary h3, .news-story h3, .forecast h3, .news-story-hp h3, .town-summary-content h3, .about-town-section h3{
+        background-color: #404040;
+        margin: 0;
+        color: #E2E200;
+        border-bottom-style: solid;
+        border-bottom-color: #333333;
+        border-bottom-width: thin;
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        padding: 0.3rem;  
+        text-shadow:
+            -1px -1px 0 #000000,
+            1px -1px 0 #000000,
+            -1px 1px 0 #000000,
+            1px 1px 0 #000000;
+    }
+
+    
+
+/* ------------ Main Current Weather Infomation ------------ */
+    
+    
+    .weather-summary-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .current {
+        display: flex;
+        align-items: center;     
+        margin-right: -1rem;
+    }
+    
+    .weather-summary img {
+        width: 3rem;
+        height: auto;
+    }
+
+    
+    #cur-description {
+        white-space: nowrap;
+        text-transform: capitalize;
+        margin: 0;
+        
+        font-size: 1.1rem;
+    }
+    
+    .cur-weather-data {
+        display: flex;
+        white-space: nowrap;
+        flex-direction: column;
+        align-items: center;
+        width: 100%
+    }
+
+
+    .hi-low {
+        display: flex;
+        margin: 0 0 0.5rem;
+    }
+
+    .temp {
+        white-space: nowrap;
+        margin: 0.3rem 0.5rem;
+    }
+
+   
+
+    #cur-deg {
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin: 0;
+    }
+
+
+    .conditions{
+        margin: 0 0 1rem 0;
+    
+    }
+    
+    .conditions p{
+       margin: 0.3rem 0;
+    }
+
+    section.forecast {
+        display: none;
+        overflow: hidden;
+    }
+
+/* ------------ Forecast ------------ */
+
+    .forecast-table {
+        flex-direction: column;
+        border-collapse: collapse;
+        border-style: hidden;
+        width: 100.1%;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    .forecast-table th, .forecast-table td{
+        border-right: solid #000000;
+        border-right-width: thin;
+        text-align: center;   
+        
+    }
+
+    .forecast-table th {
+        background: #AD4900;
+        color: #E6E6E6;
+        font-size: 1.2rem;
+        width: 10%;
+        padding: .5rem 0;
+        text-shadow:
+            -1px -1px 0 #000000,
+            1px -1px 0 #000000,
+            -1px 1px 0 #000000,
+            1px 1px 0 #000000;
+    }
+
+    .forecast-table img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .forecast-table td {
+        padding: 0 0 .5rem;
+    } 
+
+/* ------------ News Story ------------ */
+
+    .town-article, .hp-article {
+        font-size: 1em;
+        width: 96%;
+        margin: 1rem auto;
+    }
+
+    .news-story img, .image-wrapper {
+        width: 96%;
+        padding: 0;
+        margin: .5rem auto;
+    }
+
+/* ------------ Town Infomation ------------ */
+
+    .about-town-section {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem auto;
+    }
+
+    .town-summary-data-wrapper {
+        margin: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .town-summary-data-wrapper p{
+        padding: 0;
+        margin: 0.3rem auto;
+        
+    }
+
+    .town-summary-data.motto {
+        font-weight: bold;
+    }
+
+    .town-summary-data-wrapper ul {
+        text-align: left;
+        white-space: nowrap;    
+    }
+
+    .town-summary-data-wrapper ul li {
+       margin: 0.3rem auto;  
+    }
+
+/* ------------ Footer ------------ */
+
+    footer .contact {
+        background: #AD4900;
+        margin: 0;
+        padding: 0.75rem 0;
+        text-align: center;   
+        color: #E6E6E6;
+        text-shadow:
+            -1px -1px 0 #000000,
+            1px -1px 0 #000000,
+            -1px 1px 0 #000000,
+            1px 1px 0 #000000;
+    }
+
+    .contact h4 {
+        padding: 0 0 0.5rem 0;
+        margin: 0;
+    }
+
+    .contact-info{
+        padding: 0.1rem 0;
+        margin: 0;
+    }
+
+    .footer-bar {
+        background-color: #5F2D0A;
+        color: #E6E6E6;
+        font-size: 1rem;
+        text-align: center;
+        padding: 0.75rem 0;
+        margin: 0;
+        text-shadow:
+            -1px -1px 0 #000000,
+            1px -1px 0 #000000,
+            -1px 1px 0 #000000,
+            1px 1px 0 #000000;
+    }
+    
+    .footer-bar a {
+        color: inherit;
+    }
+
+    .footer-bar a:hover{
+        text-shadow: 0 0 2px #999999;
+    }
+
+/* ------------ Gallery ------------ */
+
+    .image-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0.75rem;
+        width: 96%;
+        margin: 0.5rem auto 1rem;
+    }
+    
+
+    .image-grid figure {
+        width: 100%;
+        margin: 0;
+        border: solid thin #333333;
+        border-radius: 4px;
+        background-color: #E6E6E6;
+    }
+ 
+    .image-grid img {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+
+    .image-grid figcaption {
+        text-align: center;
+        padding: 0.5rem;
+        
+    }
+
+/* ------------ Storm Center ------------ */
+    
+    form {
+        width: 98%;
+        max-width: 1205.4px;
+        margin: 0 auto;
+        
+    }
+    
+    form fieldset {
+        width: 100%;
+        max-width: 861px;
+        margin: 0 auto 2rem;
+        border: thin solid #404040;
+        border-radius: 10px;
+        padding: 0 1rem 1rem;
+        background-color: #D3D3D3;
+    }
+
+    form legend {
+        color: #E2E200;
+        margin: 0 0.5rem;
+        padding: 0 0.5rem;
+        background-color: #404040;
+        border-radius: 10px;
+    }
+
+    form label.top, form label.other-comments, form div.input-header {
+        display: block;
+        padding-top: 1rem;
+        color: #AD4900;
+        font-size: 1rem;
+        font-weight: bold;
+        max-width: 615px;
+        margin: 0 auto;
+        
+        
+    }
+    form label.top input, form label.top select {
+        
+        display: block;
+        font-size: 1rem;
+        border: thin solid #909090;
+        border-radius: 4px;
+        padding: .75rem 0.5rem;
+        color: #404040;
+        width: 100%;   
+    }
+
+    form label.range-header{
+        display: block;
+        width: 100%;
+        max-width: 615px;
+        margin: 0 auto;
+        padding-top: 1rem;
+        color: #404040;
+    }
+    
+
+    form label.range-header input{
+        display: block;
+        color:  #404040;
+        height: 1rem;
+        width: 100%;
+        margin-bottom: 0.25rem;
+    }
+
+   
+
+    form label.other-comments textarea{
+        display: block;
+        font-size: 1rem;
+        border: thin solid #909090;
+        border-radius: 4px;
+        padding: .75rem 0.5rem;
+        color: #404040;
+        width: 100%;
+        max-width: 615px;
+        margin: 0 auto;
+       
+    }
+    
+
+    form label.sbs {
+        display: block;
+        padding: 1rem 0;
+        color: #404040;    
+        max-width: 615px;
+        margin: 0 auto;
+    }
+
+    form input.submitBtn {
+        display: block;
+        border: none;
+        background-color: #404040;
+        color: #E2E200;
+        font-size: 1rem;
+        border-radius: 1rem;
+        padding: .75rem 1.5rem;
+        width: 70%;
+        max-width: 615px;
+        margin: 0 auto 2rem;
+        
+        
+    }
+
+    form.form-errors label.top input:required {
+        border: thin solid red;
+    }
+
+    form.form-errors label.top input:required:valid{
+        border: thin solid green;
+    }
+
+    .thank-you {
+        display: flex;
+        flex-direction: column;
+        height: 10rem;
+        align-items: center;    
+        justify-content: center;
+    }
+
+    .thank-you-line-one {
+        font-size: 1.1em;
+        margin: 0 0 1rem;
+        font-weight: bold;
+    }
+
+    .thank-you-line-two{
+        font-size: 0.85rem;
+        margin: 0;
+    }
+
+
+    /* Remove Arrows on Certain Inputs*/
+    input[type='number'] {
+        -moz-appearance:textfield;
+    }
+    
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+/* ------------ Home Page ------------ */
+
+
+    .news-story-hp, .town-summary-content {
+        border-radius: 4px;
+    }
+    
+    .clickable-header {
+        text-decoration: underline;
+    }
+
+    .clickable-header:hover {
+        background-color: rgba(0,0,0,0.5) !important;
+        text-decoration: none;        
+    }
+
+    .undecorated-link {
+        text-decoration: none;
+    } 
+   
+ 

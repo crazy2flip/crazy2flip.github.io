@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head> 
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Gallery - Weather | Home Town Country Weather</title>
+        <meta name="description" content="A place to share weather related images and connect with other residents from the tri-city area of Franklin, Greenville, and Springfield. View photos of events, little known hometown places, and other images shared by residents">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One&text=Home%20Town%20Country%20Weather" rel="stylesheet">
+        <link rel="stylesheet" href="/assignments/weathersite/styles/normalize.css">
+        <link rel="stylesheet" href="/assignments/weathersite/styles/main.css">
+        <link rel="stylesheet" href="/assignments/weathersite/styles/medium.css">
+        <link rel="stylesheet" href="/assignments/weathersite/styles/large.css">
+    </head> 
+    <body>
+        <header>
+            <div class="header-img">
+                <a href="/assignments/weathersite/index.html"><img src="/assignments/weathersite/images/home-town-country-logo.png" alt="Home Town Country Logo"></a>
+            </div>
+            <div class="header-title">
+                <h1>Home Town Country Weather</h1>
+                <div class="subheading">Shine or Rain Let's Go Out and Play</div>
+            </div>
+            <button id="HambugerButton" onclick="toggleMenu();">&#9776;</button>
+        </header>
+
+        <nav>
+            
+            <ul id="primaryNav" class="hide" >
+                <li><a href="/assignments/weathersite/index.html">Home</a></li>
+                <li><a href="/assignments/weathersite/franklin.html">Franklin</a></li>
+                <li><a href="/assignments/weathersite/greenville.html">Greenville</a></li>
+                <li><a href="/assignments/weathersite/springfield.html">Springfield</a></li>
+                <li><a href="/assignments/weathersite/stormcenter.html">Storm&nbsp;Center</a></li>
+                <li><a href="/assignments/weathersite/gallery.html">Gallery</a></li>
+            </ul>		
+        </nav>
+
+        <main>
+            
+            <div class="image-grid">
+                <figure>
+                    <img src="images/aerial-climate-cold-conifer.jpg" alt="Aerial Climate Cold Conifer">
+                    <figcaption>Integer ut sapien non</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="images/bare-trees-against-sky-during-sunset.jpg" alt="Bare Trees Against Sky During Sunset">
+                    <figcaption>Proin aliquet enim ut feugiat blandit</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="images/blue-and-white-cloudy-sky.jpg" alt="Blue White Cloudy Sky">
+                    <figcaption>Vivamus rutrum dapibus risus sed</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="images/city-light-up-at-night-by-lighting.jpg" alt="City Light Up at Night by Lighting">
+                    <figcaption>Praesent placerat quam auctor eros</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="images/colorful-outdoors-bridge-rainbow.jpg" alt="Colorful Rainbow Over bridge">
+                    <figcaption>Sed in est risus nao</figcaption>
+                </figure>
+                
+                <figure>
+                    <img src="images/view-of-city-scrap-covered-with-fog.jpg" alt="View of City Scrap Covered with Fog">
+                    <figcaption>Suspendisse sit amet erat aliquet</figcaption>
+                </figure>
+            
+            </div>
+        </main>
+
+        <footer>
+            <aside>
+                <section class="contact">
+                    <h4>Contact Us</h4>
+                    <p class="contact-info">123 Main St.</p>
+                    <p class="contact-info">Franklin, US 99999</p>
+                    <p class="contact-info">999.999.9999</p>
+                    <p class="contact-info">HCW@url.com</p>
+                </section>
+                <p class="footer-bar">
+                    &copy;2018 | All Rights Reserved | Home Town Country Weather |<span id="APIRef"></span> <span id="currentdate">Current Date</span>
+                </p>
+            </aside>
+        </footer>
+        <script src="scripts/wayfinder.js"></script>
+        <script src="scripts/hamburger.js"></script>
+        <script src="scripts/currentdate.js"></script>
+    </body>
+</html>
