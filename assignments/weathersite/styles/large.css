@@ -155,6 +155,15 @@
         margin: 0 2%;
     }
     
+    .news-story-hp {
+        width: 60%;
+    }
+    
+    .image-wrapper.article { 
+        width: 38.5%;
+    }
+    
+    
     .town-summary,  .town-summary.even  {
         flex-direction: column;
         width: 100%;   
