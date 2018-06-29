@@ -156,13 +156,15 @@
     }
     
     .news-story-hp {
-        width: 60%;
+        width: 50%;
     }
     
     .image-wrapper.article { 
-        width: 38.5%;
+        width: 48.5%;
     }
     
+    .homepage-weather-stor {
+    }
     
     .town-summary,  .town-summary.even  {
         flex-direction: column;

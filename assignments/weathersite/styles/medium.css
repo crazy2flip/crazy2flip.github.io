@@ -54,7 +54,7 @@
     main picture img {
         object-fit: cover;
     }
-    
+
     #medium-grouping1 {
         display: flex;
         margin: 1rem 2% 0;
@@ -207,7 +207,13 @@
         border-width: thin;
         border-color: #333333;
         border-radius: 4px;
-        width: 39.5%;    
+        width: 55%;    
+    }
+
+    
+     .image-wrapper {
+        width: 43.5%;
+        margin: 0;
     }
     
     .homepage-weather-story, .town-summary {
@@ -222,24 +228,16 @@
         display:flex; 
         border-style: none;
         justify-content: space-between;
-        
-       
     }
     
     .town-summary {
         display:flex; 
         border-style: none;
         justify-content: space-between;   
-        height: 15rem;
     }
     
     .town-summary.even {
         flex-direction: row-reverse;      
-    }
-    
-    .image-wrapper {
-        width: 59%;
-        margin: 0;
     }
     
     .image-wrapper.towns {
@@ -247,8 +245,9 @@
     }
 
      .hp-img, .town-summary-img {
-        height: 100%;
+        display: block;
         object-fit: cover;
+        height: 100%;
         margin: 0;
     }    
 
