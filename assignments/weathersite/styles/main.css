@@ -476,6 +476,12 @@
         padding: 0 0.5rem;
         background-color: #404040;
         border-radius: 10px;
+        text-shadow:
+            -1px -1px 0 #000000,
+            1px -1px 0 #000000,
+            -1px 1px 0 #000000,
+            1px 1px 0 #000000;
+        
     }
 
     form label.top, form label.other-comments, form div.input-header {
@@ -551,8 +557,13 @@
         border-radius: 1rem;
         padding: .75rem 1.5rem;
         width: 70%;
-        max-width: 615px;
+        max-width: 500px;
         margin: 0 auto 2rem;
+        text-shadow:
+            -1px -1px 0 #000000,
+            1px -1px 0 #000000,
+            -1px 1px 0 #000000,
+            1px 1px 0 #000000;
         
         
     }

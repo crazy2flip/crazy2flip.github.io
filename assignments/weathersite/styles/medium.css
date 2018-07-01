@@ -183,7 +183,7 @@
 
 /* ------------ Storm Center ------------ */
     
-    form legend {
+    form legend, form input.submitBtn {
         padding: 0.25rem 1rem;
         font-size: 1.25rem
     }
