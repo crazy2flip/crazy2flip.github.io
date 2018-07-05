@@ -289,6 +289,11 @@ body {
     color: white;
 }
 
+nav a:hover {
+    font-size: 18px;
+    font-weight: bold;
+}
+
 #external-links {
     list-style-type: none;
     display: flex;     
