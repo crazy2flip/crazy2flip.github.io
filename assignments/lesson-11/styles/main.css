@@ -171,7 +171,7 @@ body {
 	border-top:4px solid rgba(0,0,0,0.2);
 }
 
-.contentBoxes h2 {
+.contentBoxes h3 {
 	font-family: 'Raleway', sans-serif;
 	font-size:18px;
 	line-height: 25px;
@@ -304,6 +304,10 @@ nav a:hover {
 
 #external-links a {
     padding: 0 0.5rem;
+}
+
+.hidden-header {
+    display: none;
 }
 
 
