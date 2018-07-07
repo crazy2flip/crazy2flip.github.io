@@ -39,10 +39,9 @@ body {
 	width:250px;
 	height:100px;
 	float:left;
-	background:url('../images/logo.png');
 	background-color:rgb(235, 253, 212);
 	opacity:1.0;
-}
+}s
 
 .navbar {
 	position:relative;
@@ -87,7 +86,6 @@ body {
 	left:20px;
 	width:600px;
 	height:250px;
-	background:url('../images/head_image.jpg');
 	border-radius:5px;
 }
 
