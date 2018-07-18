@@ -1,0 +1,110 @@
+/* ------------ General ------------ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "arial", sans-serif; 
+    font-size: 16px;
+    width: 100%;
+    background-color: #a1a8b2;
+    
+}
+
+.topbar, main, footer {
+    max-width: 1230px;
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+
+
+.topbar {
+    background-color: #3e4852;
+}
+
+/* ------------ Header ------------ */    
+
+.logo {
+    margin: 0 0 0 2%;
+    padding: 0.5rem 0; 
+    max-width: 50%;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    display: block;
+}
+
+header a:hover {
+    box-shadow: 0.5rem 0.5rem 2rem rgba(0,0,0,0.2);
+}
+
+#menu-button {
+    height: 50%;
+    margin: 0 2% 0 0;
+    color: #EFF1F5;
+    background-color: transparent;
+    border: none;   
+    font-size: 2rem;
+}
+
+
+/* ------------ Navigation ------------ */
+
+nav {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    background-color: #ab9075;
+    width: 70%;
+    left: 101%;
+    -webkit-transition: left 500ms;
+	   -moz-transition: left 500ms;
+	    -ms-transition: left 500ms;
+	     -o-transition: left 500ms;
+	        transition: left 500ms;
+}
+
+nav.show {
+    left: 30%;
+  
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;        
+}
+
+nav ul a {
+    font-family: 'Lato', sans-serif;
+    color: #EFF1F5;
+    display: block;
+    padding: 1.5rem 0;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: thin solid rgba(0,0,0,0.2);
+    
+}
+
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.1);  
+}
+
+nav ul li.active a {
+    
+    background-color: rgba(0,0,0,0.3);  
+}
+
+

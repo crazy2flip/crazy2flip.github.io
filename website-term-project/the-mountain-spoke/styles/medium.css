@@ -1,0 +1,47 @@
+@media only screen and (min-width: 37.5em) {
+
+/* ------------ Topbar ------------ */    
+    
+    .topbar {
+        background-color: #3e4852;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+/* ------------ Header ------------ */    
+
+    #menu-button {
+        display: none;
+    }  
+    
+    .logo img {
+        max-width: none;
+    }
+
+/* ------------ Navigation ------------ */       
+
+    nav {
+        position: relative;
+        background-color: inherit;
+        width: auto;
+        height: auto;
+        left: auto;
+    }
+    nav ul {
+        display: flex;     
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+     nav ul li a{   
+        font-size: 1.3rem;
+        border-bottom: none;
+        padding: 2rem 1rem;
+    }
+
+}
