@@ -6,7 +6,7 @@ $(function(){
         event.stopImmediatePropagation;
     })
     
-    $(document).on("click", function(event){
+    $(document).on("click touchstart", function(event){
         var target = event.target;
 //        if (!target.closest("#primaryNav") && !target.closest("#menu-button")) {
         if (target.closest("#blanket")) {
