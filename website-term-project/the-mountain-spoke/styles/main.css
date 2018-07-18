@@ -37,6 +37,7 @@ body {
 
 header {
     display: flex;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
 }
@@ -67,7 +68,7 @@ nav {
     height: 100vh;
     background-color: #ab9075;
     width: 70%;
-    left: 101%;
+    left: -70%;
     -webkit-transition: left 500ms;
 	   -moz-transition: left 500ms;
 	    -ms-transition: left 500ms;
@@ -76,7 +77,7 @@ nav {
 }
 
 nav.show {
-    left: 30%;
+    left: 0;
   
 }
 
