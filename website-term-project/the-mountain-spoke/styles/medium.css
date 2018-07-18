@@ -22,7 +22,6 @@
         max-width: 100%;
     }
     
-
     
 
 /* ------------ Navigation ------------ */       
@@ -48,7 +47,7 @@
      nav ul li a{   
         font-size: 1.3rem;
         border-bottom: none;
-        padding: 2rem 1rem;
+        padding: 2rem 0.5rem;
     }
     
     
@@ -70,6 +69,7 @@
     
     footer p {
         font-size: 1.2rem;
+        margin: 1rem;    
     }
 
   

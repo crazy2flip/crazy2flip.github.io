@@ -2,9 +2,16 @@
 
     
     
+    
  /* ------------ Main ------------ */ 
 
     .shopping {
         height: 30rem;
+    }
+    
+    
+    
+    nav ul li a{   
+        padding: 2rem 1rem;
     }
 }
