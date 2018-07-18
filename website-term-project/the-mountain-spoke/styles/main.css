@@ -144,7 +144,6 @@ main picture img{
 .shopping {
     width: 100%;
     display: grid;    
-    grid-template-rows: 3;
     grid-template-columns: repeat(3, 1fr);
     height: auto;
 }
