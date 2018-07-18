@@ -75,12 +75,26 @@ nav {
 	        transition: left 500ms;
 }
 
+#blanket {
+    display: none;
+    position: fixed;
+    background-color: rgba(0,0,0,0.6);
+    height: 100vh;
+    width: 100vh;
+    left: 0;
+    top: 0;
+}
+
+#blanket.show {
+    display: block;
+}
+
 nav.show {
     left: 0;
 }
 
 .noscroll { 
-/*    overflow: hidden;*/
+    overflow: hidden;
 }
 
 nav ul {
