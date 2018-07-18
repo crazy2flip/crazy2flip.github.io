@@ -94,10 +94,6 @@ nav.show {
     left: 0;
 }
 
-.noscroll { 
-/*    overflow: hidden;*/
-}
-
 nav ul {
     list-style-type: none;
     margin: 0;
