@@ -14,9 +14,15 @@
         display: none;
     }  
     
-    .logo img {
+    .logo {
         max-width: none;
     }
+    
+    .logo img {
+        max-width: 100%;
+    }
+    
+    
 
 /* ------------ Navigation ------------ */       
 
@@ -43,5 +49,28 @@
         border-bottom: none;
         padding: 2rem 1rem;
     }
+    
+    
+    /* ------------ Main ------------ */ 
+    
+    .shopping {
+    height: 23rem;
+    }
+    
+    .shopping .grid-wrapper a {
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+   
+}
+    
+    
+    /* ------------ Footer ------------ */ 
+
+    
+    footer p {
+        font-size: 1.2rem;
+    }
+
+  
 
 }

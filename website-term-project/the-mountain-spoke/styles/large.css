@@ -1,3 +1,10 @@
 @media only screen and (min-width: 64em ) {
 
+    
+    
+ /* ------------ Main ------------ */ 
+
+    .shopping {
+        height: 30rem;
+    }
 }
