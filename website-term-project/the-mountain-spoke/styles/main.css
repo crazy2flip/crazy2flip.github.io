@@ -62,7 +62,7 @@ header a:hover {
 /* ------------ Navigation ------------ */
 
 nav {
-    position: absolute;
+    position:fixed;
     top: 0;
     height: 100vh;
     background-color: #ab9075;
@@ -80,7 +80,7 @@ nav.show {
 }
 
 .noscroll { 
-    overflow: hidden;
+/*    overflow: hidden;*/
 }
 
 nav ul {
