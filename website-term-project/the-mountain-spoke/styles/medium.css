@@ -50,6 +50,9 @@
         padding: 2rem 0.5rem;
     }
     
+    #blanket.show {
+    display: none;
+    }
     
     /* ------------ Main ------------ */ 
     
