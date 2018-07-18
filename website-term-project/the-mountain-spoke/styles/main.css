@@ -64,7 +64,7 @@ header a:hover {
 nav {
     position:fixed;
     top: 0;
-    height: 100vh;
+    height: 200vh;
     background-color: #ab9075;
     width: 70%;
     left: -70%;
