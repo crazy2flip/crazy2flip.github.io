@@ -80,7 +80,8 @@ nav.show {
 }
 
 .noscroll { 
-  overflow: hidden;
+    position: fixed;
+    overflow: hidden;
 }
 
 nav ul {
