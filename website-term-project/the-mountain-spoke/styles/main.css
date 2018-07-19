@@ -177,7 +177,12 @@ main picture img{
     border: thin solid #3e4852;
     white-space:nowrap;
     text-align: center;
-    background: rgba(62, 72, 82, 0.7)   
+    background: rgba(62, 72, 82, 0.7);
+    line-height: 1.4;
+}
+
+.departments .grid-wrapper a {
+  
 }
 
 .departments .grid-wrapper a:hover {
@@ -188,13 +193,13 @@ main picture img{
     text-align: left;
 }
 
-.departments .grid-wrapper.leftside.contact a h4{
-    padding: 0.1rem;
+.departments .grid-wrapper.leftside.contact a .contactlink{
     margin: 0.5rem 0;
+    font-weight: bold;
+    color: inherit;
 }
 
 .departments .grid-wrapper.leftside.contact a p{
-    padding: 0.1rem;
     margin: 0;
 }
 
