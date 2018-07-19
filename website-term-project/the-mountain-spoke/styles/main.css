@@ -177,8 +177,11 @@ main picture img{
     border: thin solid #3e4852;
     white-space:nowrap;
     text-align: center;
-    background: rgba(62, 72, 82, 0.7)
-    
+    background: rgba(62, 72, 82, 0.7)   
+}
+
+.departments .grid-wrapper a:hover {
+    background-color: rgba(0,0,0,0.6);  
 }
 
 .departments .grid-wrapper.leftside.contact a{
@@ -213,8 +216,11 @@ footer p {
 
 footer p a {
     color: inherit;
-    text-decoration: none;
-    
-    
+      
+}
+
+footer p a:hover {
+    text-shadow: 0 0 1px #cccccc;
+    text-decoration: none; 
 }
 
