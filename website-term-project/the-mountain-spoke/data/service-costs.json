@@ -33,17 +33,17 @@
     {
         "name":"Tune Breaks",
         "serviceFee": "$5.00 EA",
-        "costofParts": ""
+        "costofParts": "$ - "
     },
     {
         "name":"Tune Derailleur",
         "serviceFee": "$5.00 EA",
-        "costofParts": ""
+        "costofParts": "$ - "
     },
     {
         "name":"Wheel Truing",
         "serviceFee": "$10.00 EA",
-        "costofParts": ""
+        "costofParts": "$ - "
     },
     {
         "name":"Replace Break Pads",

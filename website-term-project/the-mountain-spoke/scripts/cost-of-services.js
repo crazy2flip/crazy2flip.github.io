@@ -11,11 +11,10 @@ $(function(){
             var curService = $(this).children("td:first-child").text();
             $.each(cost_data.services, function(i, item){
                 var curName = item.name;
-                alert(curName);
                 if (curName == curService) {
-                    curRow.children("td:nth-child(2)").text(curName);
+                    curRow.children("td:nth-child(2)").text(item.serviceFee);
+                    curRow.children("td:nth-child(3)").text(item.costofParts);
                     return false;
-                    
                 }
     
             });
