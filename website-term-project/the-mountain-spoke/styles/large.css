@@ -25,7 +25,7 @@ nav ul li a{
         height: 30rem;
     }
     
-    .shopping.bottomleft, .shopping.bottomright {
+    .departments.bottomleft, .departments.bottomright {
         min-height: 0;
         min-width: 0;
         height: 15rem;

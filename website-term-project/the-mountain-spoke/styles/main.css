@@ -122,6 +122,10 @@ nav ul li.active a {
 
 /* ------------ Main ------------ */ 
 
+.semanticHeader-invisible {
+    display: none;
+}
+
 main picture {
     display: block;
     position: relative;
@@ -140,14 +144,14 @@ main picture img{
 
 
 
-.shopping {
+.departments {
     width: 100%;
     display: grid;    
     grid-template-columns: repeat(3, 1fr);
    
 }
 
-.shopping .grid-wrapper {
+.departments .grid-wrapper {
     grid-column: 2;
     grid-row: 2;
     display: flex;
@@ -156,15 +160,15 @@ main picture img{
     margin: 1rem;
 }
 
-.shopping .grid-wrapper.rightside {
+.departments .grid-wrapper.rightside {
     grid-column: 3;
 }
 
-.shopping .grid-wrapper.leftside {
+.departments .grid-wrapper.leftside {
     grid-column: 1;
 }
 
-.shopping .grid-wrapper a {
+.departments .grid-wrapper a {
     font-size: 1rem;
     padding: 0.75rem 1rem;
     border-radius: 10px;
@@ -175,18 +179,18 @@ main picture img{
     text-align: center;
     background: rgba(62, 72, 82, 0.7)
     
-}s
+}
 
-.shopping .grid-wrapper.leftside.contact a{
+.departments .grid-wrapper.leftside.contact a{
     text-align: left;
 }
 
-.shopping .grid-wrapper.leftside.contact a h4{
+.departments .grid-wrapper.leftside.contact a h4{
     padding: 0.1rem;
     margin: 0.5rem 0;
 }
 
-.shopping .grid-wrapper.leftside.contact a p{
+.departments .grid-wrapper.leftside.contact a p{
     padding: 0.1rem;
     margin: 0;
 }

@@ -56,11 +56,11 @@ display: none;
 
 /* ------------ Main ------------ */ 
 
-.shopping {
+.departments {
 
 }
 
-.shopping .grid-wrapper a {
+.departments .grid-wrapper a {
 font-size: 1.25rem;
 padding: 1rem 2rem;
 
@@ -76,11 +76,11 @@ padding: 1rem 2rem;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.shopping.bottomleft {
+.departments.bottomleft {
     grid-column: 1 / 3;
 }
 
-.middle-wrapper .shopping .grid-wrapper, .bottom-wrapper .shopping .grid-wrapper{
+.middle-wrapper .departments .grid-wrapper, .bottom-wrapper .departments .grid-wrapper{
     grid-column: 2;
 }
 
