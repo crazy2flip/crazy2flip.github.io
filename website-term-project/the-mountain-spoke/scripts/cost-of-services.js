@@ -4,7 +4,7 @@ var cost_data_Request = new XMLHttpRequest();
     cost_data_Request.send();
     cost_data_Request.onload =  function () {
         let cost_data = JSON.parse(cost_data_Request.responseText);
-                
+        
         
         
   }
