@@ -5,7 +5,6 @@ $(function(){
     cost_data_Request.send();
     cost_data_Request.onload =  function () {
         let cost_data = $.parseJSON(cost_data_Request.responseText);
-        
         $("#service-list > tbody > tr").each(function() {
             var curRow = $(this);
             var curService = $(this).children("td:first-child").text();
@@ -16,7 +15,6 @@ $(function(){
                     curRow.children("td:nth-child(3)").text(item.costofParts);
                     return false;
                 }
-    
             });
         });
         
