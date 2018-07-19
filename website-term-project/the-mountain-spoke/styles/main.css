@@ -203,7 +203,58 @@ main picture img{
     margin: 0;
 }
 
+/* ------------ Main Service ------------ */
 
+.list-of-services-chart {
+    background-color: #eef1f5;    
+    border-collapse: collapse;
+    width: 100%;
+}
+
+thead tr:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+thead tr:first-child th{
+    padding: .75rem 0;
+    
+}
+
+thead tr:nth-child(2) {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+thead tr:nth-child(2) th{
+    padding: .75rem;
+    border: thin solid #cdd0d3; 
+}
+
+thead tr, tfoot {
+    background-color: #625751; 
+    color: #EFF1F5;
+    text-align: center;
+}
+
+tfoot td{
+    padding: 0.75rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+tbody td {
+    border: thin solid #cdd0d3;   
+    padding: 1rem 0;
+}
+
+tbody tr td:first-child {
+    font-style: italic;
+    background-color: #958a84; 
+    color: #EFF1F5;
+    padding: .75rem;
+    
+} 
 
 /* ------------ Footer ------------ */ 
 

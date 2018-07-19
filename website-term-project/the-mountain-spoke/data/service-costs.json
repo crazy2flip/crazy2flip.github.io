@@ -1,0 +1,42 @@
+current-costs{
+    "fix flat": {
+    "service fee": "$6.25",
+    "cost of parts": "$10.99",
+    },
+    "Replace Brake Cable": {
+    "service fee": "$15.20",
+    "cost of parts": "$7.99",
+    },
+    "Replace Housing": {
+    "service fee": "$7.25",
+    "cost of parts": "$9.99",
+    },
+    "Replace Pedals": {
+    "service fee": "$5.99",
+    "cost of parts": "$12.00",
+    },
+    "Replace Grips": {
+    "service fee": "$19.99",
+    "cost of parts": "$4.99",
+    },
+    "Replace Chain": {
+    "service fee": "$16.99",
+    "cost of parts": "$7.99",
+    },
+    "Tune Breaks": {
+    "service fee": "$5.00 EA",
+    "cost of parts": "",
+    },
+    "Tune Derailleur": {
+    "service fee": "$5.00 EA",
+    "cost of parts": "",
+    },
+    "Wheel Truing": {
+    "service fee": "$10.00 EA",
+    "cost of parts": "",
+    },
+    "Replace Break Pads": {
+    "service fee": "$5.00",
+    "cost of parts": "$11.99",
+    }    
+}
