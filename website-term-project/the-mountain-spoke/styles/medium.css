@@ -1,80 +1,99 @@
 @media only screen and (min-width: 43.8em) {
 
 /* ------------ Topbar ------------ */    
-    
-    .topbar {
-        background-color: #3e4852;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
+
+.topbar {
+    background-color: #3e4852;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 /* ------------ Header ------------ */    
 
-    #menu-button {
-        display: none;
-    }  
-    
-    .logo {
-        max-width: none;
-    }
-    
-    .logo img {
-        max-width: 100%;
-    }
-    
-    
+#menu-button {
+    display: none;
+}  
+
+.logo {
+    max-width: none;
+}
+
+.logo img {
+    max-width: 100%;
+}
+
+
 
 /* ------------ Navigation ------------ */       
 
-    nav {
-        position: relative;
-        background-color: inherit;
-        width: auto;
-        height: auto;
-        left: auto;
-    }
-    nav ul {
-        display: flex;     
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-    nav ul li {
-        flex: 1 1 100%;
-    }
-
-     nav ul li a{   
-        font-size: 1.3rem;
-        border-bottom: none;
-        padding: 2rem 0.5rem;
-    }
-    
-    #blanket.show {
-    display: none;
-    }
-    
-    /* ------------ Main ------------ */ 
-    
-    .shopping {
-    
-    }
-    
-    .shopping .grid-wrapper a {
-    font-size: 1.25rem;
-    padding: 1rem 2rem;
-   
+nav {
+    position: relative;
+    background-color: inherit;
+    width: auto;
+    height: auto;
+    left: auto;
 }
-    
-    
-    /* ------------ Footer ------------ */ 
+nav ul {
+    display: flex;     
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
-    
-    footer p {
-        font-size: 1.2rem;
-        margin: 1rem;    
-    }
+nav ul li {
+    flex: 1 1 100%;
+}
 
-  
+ nav ul li a{   
+    font-size: 1.3rem;
+    border-bottom: none;
+    padding: 2rem 0.5rem;
+}
+
+#blanket.show {
+display: none;
+}
+
+/* ------------ Main ------------ */ 
+
+.shopping {
+
+}
+
+.shopping .grid-wrapper a {
+font-size: 1.25rem;
+padding: 1rem 2rem;
+
+}
+
+.middle-wrapper {
+    display: flex;    
+    flex: 1;
+}
+
+.bottom-wrapper {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.shopping.bottomleft {
+    grid-column: 1 / 3;
+}
+
+.middle-wrapper .shopping .grid-wrapper, .bottom-wrapper .shopping .grid-wrapper{
+    grid-column: 2;
+}
+
+
+
+/* ------------ Footer ------------ */ 
+
+
+footer p {
+    font-size: 1.2rem;
+    margin: 1rem;    
+}
+
+
 
 }

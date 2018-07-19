@@ -1,17 +1,28 @@
 @media only screen and (min-width: 64em ) {
 
-    
-    
-    
- /* ------------ Main ------------ */ 
 
-    .shopping {
-      
+
+/* ------------ Navigation ------------ */   
+nav ul li a{   
+    padding: 2rem 1rem;
+}
+
+
+/* ------------ Main ------------ */ 
+
+    .lowerhalf-wrapper{
+        display: flex;
     }
     
-    
-    
-    nav ul li a{   
-        padding: 2rem 1rem;
+    .bottom-wrapper {
+        display: flex; 
+        flex-direction: column;
+        width: 28%;
     }
+    
+    .bottom-wrapper .shopping {
+       
+    }
+
+
 }

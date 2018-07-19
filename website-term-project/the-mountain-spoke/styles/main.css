@@ -123,14 +123,17 @@ nav ul li.active a {
 /* ------------ Main ------------ */ 
 
 main picture {
+    display: block;
     position: relative;
     z-index: -1;
     grid-column: 1 / 4;
     grid-row: 1 / 4;
+    
 }
 
 main picture img{
     display: block;
+    height: 100%;
     width: 100%;
     object-fit: cover;
 }
@@ -165,13 +168,14 @@ main picture img{
     font-size: 1rem;
     padding: 0.75rem 1rem;
     border-radius: 10px;
-    background-color: #ab9075;
     color: #EFF1F5;
     text-decoration: none;
     border: thin solid #3e4852;
     white-space:nowrap;
     text-align: center;
-}
+    background: rgba(62, 72, 82, 0.7)
+    
+}s
 
 .shopping .grid-wrapper.leftside.contact a{
     text-align: left;
