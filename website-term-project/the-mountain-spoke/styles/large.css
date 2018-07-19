@@ -17,12 +17,21 @@ nav ul li a{
     .bottom-wrapper {
         display: flex; 
         flex-direction: column;
-        width: 28%;
+        width: 25%;
+        height: 30rem;
     }
     
-    .bottom-wrapper .shopping {
-       
+    .middle-wrapper{
+        height: 30rem;
     }
-
+    
+    .shopping.bottomleft, .shopping.bottomright {
+        min-height: 0;
+        min-width: 0;
+        height: 15rem;
+        
+    }
+    
+    
 
 }
