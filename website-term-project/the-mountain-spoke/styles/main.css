@@ -246,6 +246,7 @@ tfoot td{
 tbody td {
     border: thin solid #cdd0d3;   
     padding: 1rem 0;
+    text-align: center;
 }
 
 tbody tr td:first-child {
