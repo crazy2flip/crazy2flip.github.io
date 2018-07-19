@@ -1,7 +1,7 @@
 {
   "services" : [ 
     {
-        "name":"fix flat",
+        "name":"Fix Flat",
         "serviceFee": "$6.25",
         "costofParts": "$10.99"
     },
