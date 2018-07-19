@@ -1,54 +1,54 @@
 {
-    "services" : [ 
+  "services" : [ 
     {
         "name":"fix flat",
-        "service fee": "$6.25",
-        "cost of parts": "$10.99",
+        "serviceFee": "$6.25",
+        "costofParts": "$10.99",
     },
     {
         "name":"Replace Brake Cable",
-        "service fee": "$15.20",
-        "cost of parts": "$7.99",
+        "serviceFee": "$15.20",
+        "costofParts": "$7.99",
     },
     {
         "name":"Replace Housing",
-        "service fee": "$7.25",
-        "cost of parts": "$9.99",
+        "serviceFee": "$7.25",
+        "costofParts": "$9.99",
     },
     {
         "name":"Replace Pedals",
-        "service fee": "$5.99",
-        "cost of parts": "$12.00",
+        "serviceFee": "$5.99",
+        "costofParts": "$12.00",
     },
     {
         "name":"Replace Grips",
-        "service fee": "$19.99",
-        "cost of parts": "$4.99",
+        "serviceFee": "$19.99",
+        "costofParts": "$4.99",
     },
     {
         "name":"Replace Chain",
-        "service fee": "$16.99",
-        "cost of parts": "$7.99",
+        "serviceFee": "$16.99",
+        "costofParts": "$7.99",
     },
     {
         "name":"Tune Breaks",
-        "service fee": "$5.00 EA",
-        "cost of parts": "",
+        "serviceFee": "$5.00 EA",
+        "costofParts": "",
     },
     {
         "name":"Tune Derailleur",
-        "service fee": "$5.00 EA",
-        "cost of parts": "",
+        "serviceFee": "$5.00 EA",
+        "costofParts": "",
     },
     {
         "name":"Wheel Truing",
-        "service fee": "$10.00 EA",
-        "cost of parts": "",
+        "serviceFee": "$10.00 EA",
+        "costofParts": "",
     },
     {
         "name":"Replace Break Pads",
-        "service fee": "$5.00",
-        "cost of parts": "$11.99",
+        "serviceFee": "$5.00",
+        "costofParts": "$11.99",
     }   
   ]
 }
