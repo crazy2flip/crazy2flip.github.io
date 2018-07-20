@@ -121,11 +121,15 @@ nav ul li.active a {
     background-color: rgba(0,0,0,0.3);  
 }
 
-/* ------------ Main Home ------------ */ 
+/* ------------ Main All ------------ */ 
 
 .semanticHeader-invisible {
     display: none;
 }
+
+/* ------------ Main Home ------------ */ 
+
+
 
 .departments picture {
     display: block;
