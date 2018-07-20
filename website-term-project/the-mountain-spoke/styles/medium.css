@@ -84,6 +84,16 @@ padding: 1rem 2rem;
     grid-column: 2;
 }
 
+    
+/* ------------ Main Shopping ------------ */ 
+.panel {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.sale-catalog-item img{
+    padding: 1rem;
+}
 
 
 /* ------------ Footer ------------ */ 
