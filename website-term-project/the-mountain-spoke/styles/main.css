@@ -236,7 +236,7 @@ background-color: #eef1f5;
 }
 
 .panel {
-    overflow: hidden;
+    overflow: scroll;
     max-height: 0;
      -webkit-transition: max-height 1000ms;
    -moz-transition: max-height 1000ms;
