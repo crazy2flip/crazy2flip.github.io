@@ -1,0 +1,83 @@
+ <!DOCTYPE html>
+<html lang="en-us">
+    <head> 
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Contact Us - Bicyle Shop | The Mountain Spoke</title>
+        <meta name="description" content="Contact The Mountain Spoke retail store. Ask us questions about our products, events, tours, and services. We are here to help.">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Lato&text=HomeShoppingEventsToursServicesContact%20us" rel="stylesheet">
+        <link rel="stylesheet" href="styles/normalize.css">    
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head> 
+    <body>
+        <div class="topbar">
+        <header>
+        <a class="logo" href="/website-term-project/the-mountain-spoke/index.html">
+            <img src="images/the-mountain-spoke-logo.png" alt="The Mountain Spoke Logo">
+        </a>
+        <button id="menu-button">&#9776;</button>    
+        </header>
+        <div id="blanket"></div>
+        <nav id="primaryNav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sales.html">Shopping</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="adventure-tours.html">Tours</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li class="active"><a href="contact-us.html">Contact&nbsp;Us</a></li>
+            </ul>		
+        </nav>
+        </div>
+
+        <main>       
+            <div class="medium-wrapper">
+                <section class="contact-info-container">
+                    <h2 class="contacthead">Locate Us</h2>
+                    <div class="contact-us">
+                        <div class="contact-info">
+                            <p class="contact-info-items">3950&nbsp;Valley</p>
+                            <p class="contact-info-items">Commons&nbsp;Drive</p>
+                            <p class="contact-info-items">Bozeman,&nbsp;MT</p>
+                            <p class="contact-info-items">Call:&nbsp;406-965-1264</p>
+                        </div>
+                        <div class="map-container">
+                            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.931627761105!2d-111.09290618461058!3d45.672272879103915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e0!3m2!1sen!2sus!4v1532539430053" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </section>
+                
+                <section class="form-container">
+                    <div id="cover"></div>
+                    <h2 class="semanticHeader-invisible">Contact Form</h2>
+                     <form id="contact-us-form" class="tms-forms" method="get" action="#">
+                            <legend>Contact Us</legend>
+                            <div class="border-wrap">
+                                <label class="top">Full Name* <input type="text" name="full-name" pattern="[a-zA-Z][a-zA-Z ]{4,}" required></label>
+                                <label class="top">Email* <input type="email" name="email" placeholder="janedoe@gmail.com" required></label>
+                                <label class="top">Phone <input type="tel" name="phone"></label>
+                                <label class="top">Questions<textarea rows="4" cols="50" name="questions-otherinfo"></textarea></label>   
+                                <input id="subBtn" class="submitBtn" type="submit" value="Ask My Question">
+                            </div>
+                    </form>
+                </section>
+            </div>
+            
+        </main>
+
+        <footer>
+            <p>
+                &copy;2018 The Mountain Spoke
+            </p>
+            <p>
+                <a class="logo" href="overview.html">Overview</a>
+            </p>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="scripts/show-menu.js"></script>
+        <script src="scripts/submit-form.js"></script>
+    </body>
+</html>
