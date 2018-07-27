@@ -302,6 +302,7 @@ nav ul li.active a {
 
 .sub-list {
     list-style-type:disc;
+    padding-top: 0.5rem;
 }
 
 .bold {
@@ -411,6 +412,8 @@ tbody tr td:first-child {
     display: block;
     width: 100%;
     height: 100%;
+    overflow: hidden;
+    border: none; 
 }
 
 .map-container {
@@ -427,7 +430,7 @@ tbody tr td:first-child {
     text-align: center;    
 }
 
-.contacthead, form legend, .gdmbrhead, .otherhead, .tourhead, .resource-links, .overviewhead {
+.contacthead, .formheader, .gdmbrhead, .otherhead, .tourhead, .resource-links, .overviewhead {
     margin: 0;
     color: #EFF1F5;
     background-color: #625751;
